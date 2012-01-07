@@ -1,0 +1,103 @@
+//
+//  PlayerInfoViewController.h
+//  Pool
+//
+//  Created by Victor Oliveira on 22/01/11.
+//  Copyright 2011 Ufscar. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@class PaintingView;
+@class SelectCellsController;
+@class UsersViewController;
+
+@interface PlayerInfoViewController : UIViewController <UITextFieldDelegate> {
+	
+	//ColorPicking atributes
+	IBOutlet UIPickerView *pickerView;
+	NSMutableArray *arrayColors;
+	NSMutableArray *arrayUIColors;
+	
+	//actualPlayer atributes
+	NSNumber *playerIndex;
+	NSString *playerName;
+	
+	//game atributes
+	NSString *team1Name;
+	NSString *team2Name;
+	NSNumber *numberOfPlayers;
+	
+	//object player atributes
+	NSMutableArray *playersNames;
+	NSMutableArray *playersInitialsImages;
+	NSMutableArray *playersNumbersOfCells;
+	NSMutableArray *playersInitialsPoints;
+	
+	NSMutableArray *playersColors;
+	
+	//chooices atributes
+	NSMutableArray *choicesPlayers;
+	NSMutableArray *choicesValues;
+	
+	//UI atributes
+	IBOutlet PaintingView *paintingView;
+	IBOutlet UITextField *nameTextField;
+	
+	UIColor *actualPlayerColor;
+
+	IBOutlet UIButton *continueButton;
+	
+	IBOutlet UIButton *clearButton;
+	IBOutlet UILabel *nameLabel;
+	IBOutlet UILabel *drawLabel;
+	IBOutlet UILabel *colorLabel;
+	
+	//Navigation atributes
+	SelectCellsController *childController;
+	UsersViewController *parentController;	
+	BOOL shouldPop;
+	
+}
+@property (nonatomic, retain) NSNumber *playerIndex;
+@property (nonatomic, retain) NSString *playerName;
+
+@property (nonatomic, retain) NSString *team1Name;
+@property (nonatomic, retain) NSString *team2Name;
+@property (nonatomic, retain) NSNumber *numberOfPlayers;
+
+@property (nonatomic,retain) NSMutableArray *playersNames;
+@property (nonatomic,retain) NSMutableArray *playersInitialsImages;
+@property (nonatomic,retain) NSMutableArray *playersNumbersOfCells;
+@property (nonatomic,retain) NSMutableArray *playersInitialsPoints;
+
+@property (nonatomic,retain) NSMutableArray *choicesPlayers;
+@property (nonatomic,retain) NSMutableArray *choicesValues;
+
+@property (nonatomic,retain) IBOutlet PaintingView *paintingView;
+@property (nonatomic,retain) IBOutlet UITextField *nameTextField;
+
+@property (nonatomic,retain) UIColor *actualPlayerColor;
+
+@property (nonatomic,assign) UsersViewController *parentController;
+@property (nonatomic,readwrite) BOOL shouldPop;
+
+@property(nonatomic,retain) NSMutableArray *playersColors;
+
+@property(nonatomic,retain) IBOutlet UIPickerView *pickerView;
+@property(nonatomic,retain) NSMutableArray *arrayColors;
+@property(nonatomic,retain) NSMutableArray *arrayUIColors;
+
+@property(nonatomic,retain) IBOutlet UIButton *clearButton;
+@property(nonatomic,retain) IBOutlet UILabel *nameLabel;
+@property(nonatomic,retain) IBOutlet UILabel *drawLabel;
+@property(nonatomic,retain) IBOutlet UILabel *colorLabel;
+
+
+@property(nonatomic,retain) IBOutlet UIButton *continueButton;
+
+-(IBAction)continueButtonPressed;
+-(IBAction)nameEdited:(id)sender;
+-(IBAction)clearContext;
+-(void)setNewColor:(UIColor *)color;
+@end

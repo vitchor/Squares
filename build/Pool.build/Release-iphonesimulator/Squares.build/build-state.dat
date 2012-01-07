@@ -1,0 +1,932 @@
+TSquares
+v7
+r0
+t318219041.084676
+cCheck dependencies
+cProcessInfoPlistFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Info.plist Pool-Info.plist
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/MainWindow.xib
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../PoolViewController.xib
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../SelectCellsController.xib
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../GameController.xib
+cCpResource build/Release-iphonesimulator/Pool.app/cardinals.png ../cardinals.png
+cCpResource build/Release-iphonesimulator/Pool.app/superbowl.png ../superbowl.png
+cCpResource build/Release-iphonesimulator/Pool.app/degrade.png ../../degrade.png
+cCpResource build/Release-iphonesimulator/Pool.app/grade3.png ../../../grade3.png
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../InfoViewController.xib
+cCpResource build/Release-iphonesimulator/Pool.app/TheSummitFormated.png ../TheSummitFormated.png
+cCpResource build/Release-iphonesimulator/Pool.app/SuperBowlSquares.png ../SuperBowlSquares.png
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.xib
+cCpResource build/Release-iphonesimulator/Pool.app/slfeup.png slfeup.png
+cCpResource build/Release-iphonesimulator/Pool.app/InitialsImage.png InitialsImage.png
+cCpResource build/Release-iphonesimulator/Pool.app/initialsImage2.png initialsImage2.png
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.xib
+cCpResource build/Release-iphonesimulator/Pool.app/padBorder.png ../../../padBorder.png
+cCpResource build/Release-iphonesimulator/Pool.app/whitePad.png whitePad.png
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.xib
+cCpResource build/Release-iphonesimulator/Pool.app/stripes_formated.png stripes_formated.png
+cCpResource build/Release-iphonesimulator/Pool.app/stripes2.png stripes2.png
+cCpResource build/Release-iphonesimulator/Pool.app/winner_footer.png winner_footer.png
+cCpResource build/Release-iphonesimulator/Pool.app/winner_header2.png winner_header2.png
+cCpResource build/Release-iphonesimulator/Pool.app/tableCellDegrade.png tableCellDegrade.png
+cCpResource build/Release-iphonesimulator/Pool.app/tableCellDegrade2.png tableCellDegrade2.png
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.xib
+cCpResource build/Release-iphonesimulator/Pool.app/blue_arrow2.png blue_arrow2.png
+cCpResource build/Release-iphonesimulator/Pool.app/red_arrow2.png red_arrow2.png
+cCpResource build/Release-iphonesimulator/Pool.app/BlueLabel.png BlueLabel.png
+cCpResource build/Release-iphonesimulator/Pool.app/RedLabel.png RedLabel.png
+cCpResource build/Release-iphonesimulator/Pool.app/app_icon.png app_icon.png
+cProcessPCH /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch.gch Pool_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/main.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PoolAppDelegate.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PoolViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/UsersViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/SelectCellsController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/GameController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/ResultsViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/InfoViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/SelectTeamsController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PlayerInfoViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PaintingView.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/CellView.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/CustomNavigationController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CustomNavigationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool normal i386
+cGenerateDSYMFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app.dSYM /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool
+cTouch /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../../grade3.png
+c000000004D31128600000000000368D3
+t1295061638
+s223443
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../../padBorder.png
+c000000004D3D04100000000000000951
+t1295844368
+s2385
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../degrade.png
+c000000004D310A080000000000024EF9
+t1295059464
+s151289
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../SuperBowlSquares.png
+c000000004D3A09200000000000060E22
+t1295649056
+s396834
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../TheSummitFormated.png
+c000000004D39F4420000000000021592
+t1295643714
+s136594
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../cardinals.png
+c000000004D2F44A30000000000005844
+t1294943395
+s22596
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../superbowl.png
+c000000004D3104E00000000000031786
+t1295058144
+s202630
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/BlueLabel.png
+c000000004D38CE6A0000000000001B43
+t1295568490
+s6979
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../GameController.xib
+c000000004D46FBB7000000000003E8A1
+t1296497591
+s256161
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../InfoViewController.xib
+c000000004D3F2E4A0000000000006D38
+t1295986250
+s27960
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../PoolViewController.xib
+c000000004D41AE790000000000006687
+t1296150137
+s26247
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../SelectCellsController.xib
+c000000004D40CF7000000000000472F9
+t1296093040
+s291577
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.h
+c000000004D3F45FA0000000000000204
+t1295992314
+s516
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m
+c000000004D3F460700000000000002E1
+t1295992327
+s737
+i"CellView.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.xib
+c000000004D41A71B0000000000005830
+t1296148251
+s22576
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CustomNavigationController.h
+c000000004D46024100000000000002C4
+t1296433729
+s708
+i<Foundation/Foundation.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CustomNavigationController.m
+c000000004D4619E5000000000000052A
+t1296439781
+s1322
+i"CustomNavigationController.h"
+i"SelectTeamsController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.h
+c000000004D4747400000000000003DA0
+t1296516928
+s15776
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m
+c000000004D475F7A00000000000071C9
+t1296523130
+s29129
+i"GameController.h"
+i"ResultsViewController.h"
+i"PoolAppDelegate.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.h
+c000000004D39E89200000000000000FF
+t1295640722
+s255
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m
+c000000004D39ECC800000000000005C0
+t1295641800
+s1472
+i"InfoViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.h
+c000000004D474FFC000000000000036C
+t1296519164
+s876
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m
+c000000004D474FED0000000000000A5D
+t1296519149
+s2653
+i"PaintingView.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.h
+c000000004D46184200000000000007A1
+t1296439362
+s1953
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m
+c000000004D474FE50000000000001F7D
+t1296519141
+s8061
+i"PlayerInfoViewController.h"
+i"PaintingView.h"
+i"SelectCellsController.h"
+i"PoolAppDelegate.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.xib
+c000000004D46194B0000000000007FEC
+t1296439627
+s32748
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.h
+c000000004D2BDE9F0000000000000245
+t1294720671
+s581
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m
+c000000004D2BDECD00000000000007D2
+t1294720717
+s2002
+i"PoolAppDelegate.h"
+i"PoolViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.h
+c000000004D3BE00100000000000001C6
+t1295769601
+s454
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m
+c000000004D47155900000000000007DD
+t1296504153
+s2013
+i"PoolViewController.h"
+i"SelectTeamsController.h"
+i"PoolAppDelegate.h"
+i"InfoViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.h
+c000000004D3E7E020000000000000D22
+t1295941122
+s3362
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m
+c000000004D475DC40000000000002198
+t1296522692
+s8600
+i"ResultsViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.xib
+c000000004D41B2560000000000008793
+t1296151126
+s34707
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.h
+c000000004D471EF100000000000029A3
+t1296506609
+s10659
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m
+c000000004D475326000000000000239B
+t1296519974
+s9115
+i"SelectCellsController.h"
+i"PoolAppDelegate.h"
+i"GameController.h"
+i"UsersViewController.h"
+i"PlayerInfoViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.h
+c000000004D45E494000000000000046F
+t1296426132
+s1135
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m
+c000000004D471E070000000000002391
+t1296506375
+s9105
+i"SelectTeamsController.h"
+i"UsersViewController.h"
+i"PoolAppDelegate.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.xib
+c000000004D46EFDF0000000000008F98
+t1296494559
+s36760
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.h
+c000000004D433493000000000000074F
+t1296250003
+s1871
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m
+c000000004D47675C000000000000268B
+t1296525148
+s9867
+i"UsersViewController.h"
+i"PoolAppDelegate.h"
+i"CellView.h"
+i"PlayerInfoViewController.h"
+i"GameController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/InitialsImage.png
+c000000004D3BD69400000000000058DF
+t1295767188
+s22751
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/MainWindow.xib
+c000000004D45EA8600000000000066F3
+t1296427654
+s26355
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Pool_Prefix.pch
+c000000004D2BD05B00000000000000B1
+t1294717019
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/RedLabel.png
+c000000004D38CE8800000000000027E3
+t1295568520
+s10211
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon.png
+c000000004D47698E0000000000004E32
+t1296525710
+s20018
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/blue_arrow2.png
+c000000004D46F6E60000000000001617
+t1296496358
+s5655
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/CellView.o
+t1296526211
+s41208
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/CustomNavigationController.o
+t1296526211
+s46872
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/GameController.o
+t1296526211
+s266620
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/InfoViewController.o
+t1296526210
+s38436
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PaintingView.o
+t1296526211
+s50504
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PlayerInfoViewController.o
+t1296526211
+s82472
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/Pool.LinkFileList
+c000000004D476B800000000000000784
+t1296526208
+s1924
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PoolAppDelegate.o
+t1296526208
+s52568
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PoolViewController.o
+t1296526208
+s49900
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/ResultsViewController.o
+t1296526210
+s97224
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/SelectCellsController.o
+t1296526209
+s179308
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/SelectTeamsController.o
+t1296526210
+s80184
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/UsersViewController.o
+t1296526209
+s83660
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/main.o
+t1296526208
+s6316
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app
+t1296526241
+s1360
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app.dSYM
+t1296526211
+s102
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/BlueLabel.png
+t1296496956
+s6979
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/CellView.nib
+t1296256913
+s2061
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/GameController.nib
+t1296497654
+s19021
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Info.plist
+t1296526241
+s698
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/InfoViewController.nib
+t1296256911
+s2593
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/InitialsImage.png
+t1296256912
+s22751
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/MainWindow.nib
+t1296427658
+s1617
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/PkgInfo
+t1296526241
+s8
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/PlayerInfoViewController.nib
+t1296439630
+s2936
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool
+t1296526211
+s317368
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/PoolViewController.nib
+t1296256909
+s2049
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/RedLabel.png
+t1296496956
+s10211
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/ResultsViewController.nib
+t1296256913
+s2744
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/SelectCellsController.nib
+t1296256911
+s26194
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/SelectTeamsController.nib
+t1296495992
+s2923
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/SuperBowlSquares.png
+t1296256911
+s396834
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/TheSummitFormated.png
+t1296256911
+s136594
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/app_icon.png
+t1296525889
+s20018
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/blue_arrow2.png
+t1296496956
+s5655
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/cardinals.png
+t1296256911
+s22596
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/degrade.png
+t1296256911
+s151289
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/grade3.png
+t1296256911
+s223443
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/initialsImage2.png
+t1296256912
+s11455
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/padBorder.png
+t1296256912
+s2385
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/red_arrow2.png
+t1296496956
+s6247
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/slfeup.png
+t1296256912
+s547
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/stripes2.png
+t1296256913
+s79754
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/stripes_formated.png
+t1296256913
+s47935
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/superbowl.png
+t1296256911
+s202630
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/tableCellDegrade.png
+t1296256913
+s757
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/tableCellDegrade2.png
+t1296256913
+s757
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/whitePad.png
+t1296256912
+s226
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/winner_footer.png
+t1296256913
+s6037
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/winner_header2.png
+t1296256913
+s239037
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/initialsImage2.png
+c000000004D3BD8520000000000002CBF
+t1295767634
+s11455
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m
+c000000004D2BD05B0000000000000160
+t1294717019
+s352
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/red_arrow2.png
+c000000004D46F6DE0000000000001867
+t1296496350
+s6247
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/slfeup.png
+c000000004D293ABA0000000000000223
+t1294547642
+s547
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/stripes2.png
+c000000004D3F2C8C000000000001378A
+t1295985804
+s79754
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/stripes_formated.png
+c000000004D3F2AC2000000000000BB3F
+t1295985346
+s47935
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/tableCellDegrade.png
+c000000004D3F403800000000000002F5
+t1295990840
+s757
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/tableCellDegrade2.png
+c000000004D3F406000000000000002F5
+t1295990880
+s757
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/whitePad.png
+c000000004D3D111600000000000000E2
+t1295847702
+s226
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/winner_footer.png
+c000000004D3F36C60000000000001795
+t1295988422
+s6037
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/winner_header2.png
+c000000004D3F390C000000000003A5BD
+t1295989004
+s239037
+
+N/var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch.gch
+t1296256914
+s15113424
+
+NPool-Info.plist
+c000000004D476BD300000000000003EE
+t1296526291
+s1006
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318219041#318219041#0(0"0(0#1#0"8605068416#0"0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/CellView.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219011.428397
+e318219011.524895
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/CellView.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m318219011#318219011#0(0"0(0#0#71"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m8604409856#2104"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/CellView.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/CustomNavigationController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CustomNavigationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219011.524993
+e318219011.645260
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/CustomNavigationController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CustomNavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CustomNavigationController.m318219011#318219011#0(0"0(0#0#89"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CustomNavigationController.m8603753152#2140"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CustomNavigationController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/CustomNavigationController.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/GameController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219009.225032
+e318219011.634996
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/GameController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m318219009#318219011#0(0"0(0#0#77"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m8609097152#2116"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/GameController.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/InfoViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219010.514900
+e318219010.597039
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/InfoViewController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m318219010#318219010#0(0"0(0#0#81"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m8608611200#2124"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/InfoViewController.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PaintingView.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219011.244900
+e318219011.428296
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PaintingView.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m318219011#318219011#0(0"0(0#0#75"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m8608752192#2112"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PaintingView.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PlayerInfoViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219010.892149
+e318219011.244802
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PlayerInfoViewController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m318219010#318219011#0(0"0(0#0#87"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m8602288800#2136"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PlayerInfoViewController.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PoolAppDelegate.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219008.598660
+e318219008.753945
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PoolAppDelegate.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m318219008#318219008#0(0"0(0#0#78"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m8603770432#2118"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PoolAppDelegate.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PoolViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219008.675948
+e318219008.806682
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PoolViewController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m318219008#318219008#0(0"0(0#0#81"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m8609019872#2124"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/PoolViewController.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/ResultsViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219009.942308
+e318219010.514720
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/ResultsViewController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m318219009#318219010#0(0"0(0#0#84"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m8602398656#2130"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/ResultsViewController.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/SelectCellsController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219008.806786
+e318219009.942212
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/SelectCellsController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m318219008#318219009#0(0"0(0#0#84"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m8605263936#2130"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/SelectCellsController.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/SelectTeamsController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219010.597142
+e318219010.892051
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/SelectTeamsController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m318219010#318219010#0(0"0(0#0#84"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m8602728800#2130"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/SelectTeamsController.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/UsersViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219008.754040
+e318219009.224902
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/UsersViewController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m318219008#318219009#0(0"0(0#0#82"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m7021238724389206016#2126"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/UsersViewController.o0#
+
+CCompileC build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/main.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318219008.596534
+e318219008.675855
+r1
+xCompileC
+xbuild/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/main.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m318219008#318219008#0(0"0(0#0#59"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m8603826880#2088"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources/i386 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../GameController.xib
+r0
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../InfoViewController.xib
+r0
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../PoolViewController.xib
+r0
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../SelectCellsController.xib
+r0
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.xib
+r0
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.xib
+r0
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.xib
+r0
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.xib
+r0
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/MainWindow.xib
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/BlueLabel.png BlueLabel.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/InitialsImage.png InitialsImage.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/RedLabel.png RedLabel.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/SuperBowlSquares.png ../SuperBowlSquares.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/TheSummitFormated.png ../TheSummitFormated.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/app_icon.png app_icon.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/blue_arrow2.png blue_arrow2.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/cardinals.png ../cardinals.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/degrade.png ../../degrade.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/grade3.png ../../../grade3.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/initialsImage2.png initialsImage2.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/padBorder.png ../../../padBorder.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/red_arrow2.png red_arrow2.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/slfeup.png slfeup.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/stripes2.png stripes2.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/stripes_formated.png stripes_formated.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/superbowl.png ../superbowl.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/tableCellDegrade.png tableCellDegrade.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/tableCellDegrade2.png tableCellDegrade2.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/whitePad.png whitePad.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/winner_footer.png winner_footer.png
+r0
+
+CCpResource build/Release-iphonesimulator/Pool.app/winner_header2.png winner_header2.png
+r0
+
+CGenerateDSYMFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app.dSYM /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool
+s318219011.701076
+e318219011.753264
+r1
+xGenerateDSYMFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app.dSYM
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool
+lSLF07#2@104"GenerateDSYMFile build/Release-iphonesimulator/Pool.app.dSYM build/Release-iphonesimulator/Pool.app/Pool318219011#318219011#0(0"0(0#0#96"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool8607898176#420"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app.dSYM0#
+
+CLd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool normal i386
+s318219011.645348
+e318219011.700977
+r1
+xLd
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool
+xnormal
+xi386
+lSLF07#2@101"Link /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool318219011#318219011#0(0"0(0#0#0"8601352640#966"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator -filelist /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Release-iphonesimulator/Squares.build/Objects-normal/i386/Pool.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Pool0#
+
+CProcessInfoPlistFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Info.plist Pool-Info.plist
+s318219041.057842
+e318219041.077262
+r1
+xProcessInfoPlistFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Info.plist
+xPool-Info.plist
+lSLF07#2@23"Process Pool-Info.plist318219041#318219041#0(0"0(0#0#68"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Pool-Info.plist8603047072#516"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Pool-Info.plist -genpkginfo /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app/Info.plist0#
+
+CProcessPCH /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fvjpwkrhlbsbnweapmzprijbgqmi/Pool_Prefix.pch.gch Pool_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app
+s318219041.079367
+e318219041.084616
+r1
+xTouch
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app
+lSLF07#2@97"Touch /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app318219041#318219041#0(0"0(0#0#0"8605349344#305"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Release-iphonesimulator/Pool.app0#
+

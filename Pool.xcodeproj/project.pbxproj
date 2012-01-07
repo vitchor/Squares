@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PoolAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PoolAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* PoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* PoolViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* PoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PoolViewController.m */; };
+		4417836A12EEB2D300661EB4 /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4417836912EEB2D300661EB4 /* ResultsViewController.xib */; };
+		443C27EC12DC136B00219E87 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C27EB12DC136B00219E87 /* UsersViewController.m */; };
+		4455696C12DDDA4D00BC4225 /* SelectCellsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4455696B12DDDA4D00BC4225 /* SelectCellsController.m */; };
+		4455696E12DDDA8200BC4225 /* SelectCellsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4455696D12DDDA8200BC4225 /* SelectCellsController.xib */; };
+		448BC87B12EBBA60000B886F /* SelectTeamsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448BC87912EBBA60000B886F /* SelectTeamsController.m */; };
+		448BC87C12EBBA60000B886F /* SelectTeamsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448BC87A12EBBA60000B886F /* SelectTeamsController.xib */; };
+		448BCBE412EC11AB000B886F /* PlayerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448BCBE212EC11AB000B886F /* PlayerInfoViewController.m */; };
+		448BCBE512EC11AB000B886F /* PlayerInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448BCBE312EC11AB000B886F /* PlayerInfoViewController.xib */; };
+		449B271112EF7C6200DD37F1 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B271012EF7C6200DD37F1 /* CellView.m */; };
+		449B271312EF7C7500DD37F1 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449B271212EF7C7500DD37F1 /* CellView.xib */; };
+		449F50D812FCCD80006E60A5 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F50D712FCCD80006E60A5 /* UIImage+Resizing.m */; };
+		44A5959614B90471004D6B90 /* goodIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958614B90471004D6B90 /* goodIcon72x72.png */; };
+		44A5959714B90471004D6B90 /* squaredIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958714B90471004D6B90 /* squaredIcon72x72.png */; };
+		44A5959814B90471004D6B90 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958814B90471004D6B90 /* blueButton.png */; };
+		44A5959914B90471004D6B90 /* gradeWithColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958914B90471004D6B90 /* gradeWithColor.png */; };
+		44A5959A14B90471004D6B90 /* smallBluewArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958A14B90471004D6B90 /* smallBluewArrow.png */; };
+		44A5959B14B90471004D6B90 /* smallRedArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958B14B90471004D6B90 /* smallRedArrow.png */; };
+		44A5959C14B90471004D6B90 /* grassGoodBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958C14B90471004D6B90 /* grassGoodBackground.png */; };
+		44A5959D14B90471004D6B90 /* iconFlat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958D14B90471004D6B90 /* iconFlat2.png */; };
+		44A5959E14B90471004D6B90 /* iconFlat.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958E14B90471004D6B90 /* iconFlat.png */; };
+		44A5959F14B90471004D6B90 /* squaresTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958F14B90471004D6B90 /* squaresTitle.png */; };
+		44A595A014B90471004D6B90 /* grassIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5959014B90471004D6B90 /* grassIcon.png */; };
+		44A595A114B90471004D6B90 /* winner_header2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5959114B90471004D6B90 /* winner_header2.png */; };
+		44A595A214B90471004D6B90 /* winner_footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5959214B90471004D6B90 /* winner_footer.png */; };
+		44A595A314B90471004D6B90 /* whitePad.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5959314B90471004D6B90 /* whitePad.png */; };
+		44A595A414B90471004D6B90 /* padBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5959414B90471004D6B90 /* padBorder.png */; };
+		44A595A514B90471004D6B90 /* initialsImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5959514B90471004D6B90 /* initialsImage2.png */; };
+		44C1080A12E93674004FAB57 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C1080912E93674004FAB57 /* ResultsViewController.m */; };
+		44D7E15A12ED0D50009081DC /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D7E15912ED0D50009081DC /* PaintingView.m */; };
+		44F5B62612DE58CA0093CE66 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F5B62512DE58CA0093CE66 /* GameController.m */; };
+		44F5B62812DE58DC0093CE66 /* GameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F5B62712DE58DC0093CE66 /* GameController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PoolAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PoolAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Pool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* PoolViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PoolViewController.xib; path = ../PoolViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* PoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* PoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Pool_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pool_Prefix.pch; sourceTree = "<group>"; };
+		4417836912EEB2D300661EB4 /* ResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
+		443C27EA12DC136B00219E87 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		443C27EB12DC136B00219E87 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		4455696A12DDDA4D00BC4225 /* SelectCellsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCellsController.h; sourceTree = "<group>"; };
+		4455696B12DDDA4D00BC4225 /* SelectCellsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCellsController.m; sourceTree = "<group>"; };
+		4455696D12DDDA8200BC4225 /* SelectCellsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SelectCellsController.xib; path = ../SelectCellsController.xib; sourceTree = "<group>"; };
+		448BC87812EBBA60000B886F /* SelectTeamsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTeamsController.h; sourceTree = "<group>"; };
+		448BC87912EBBA60000B886F /* SelectTeamsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTeamsController.m; sourceTree = "<group>"; };
+		448BC87A12EBBA60000B886F /* SelectTeamsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectTeamsController.xib; sourceTree = "<group>"; };
+		448BCBE212EC11AB000B886F /* PlayerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerInfoViewController.m; sourceTree = "<group>"; };
+		448BCBE312EC11AB000B886F /* PlayerInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerInfoViewController.xib; sourceTree = "<group>"; };
+		449B270F12EF7C6200DD37F1 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		449B271012EF7C6200DD37F1 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		449B271212EF7C7500DD37F1 /* CellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		449F507512FCC9EE006E60A5 /* PlayerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInfoViewController.h; sourceTree = "<group>"; };
+		449F50D612FCCD80006E60A5 /* UIImage+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizing.h"; sourceTree = "<group>"; };
+		449F50D712FCCD80006E60A5 /* UIImage+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizing.m"; sourceTree = "<group>"; };
+		44A5958614B90471004D6B90 /* goodIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goodIcon72x72.png; path = Resources/goodIcon72x72.png; sourceTree = "<group>"; };
+		44A5958714B90471004D6B90 /* squaredIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = squaredIcon72x72.png; path = Resources/squaredIcon72x72.png; sourceTree = "<group>"; };
+		44A5958814B90471004D6B90 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueButton.png; path = Resources/blueButton.png; sourceTree = "<group>"; };
+		44A5958914B90471004D6B90 /* gradeWithColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gradeWithColor.png; path = Resources/gradeWithColor.png; sourceTree = "<group>"; };
+		44A5958A14B90471004D6B90 /* smallBluewArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallBluewArrow.png; path = Resources/smallBluewArrow.png; sourceTree = "<group>"; };
+		44A5958B14B90471004D6B90 /* smallRedArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallRedArrow.png; path = Resources/smallRedArrow.png; sourceTree = "<group>"; };
+		44A5958C14B90471004D6B90 /* grassGoodBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grassGoodBackground.png; path = Resources/grassGoodBackground.png; sourceTree = "<group>"; };
+		44A5958D14B90471004D6B90 /* iconFlat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconFlat2.png; path = Resources/iconFlat2.png; sourceTree = "<group>"; };
+		44A5958E14B90471004D6B90 /* iconFlat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconFlat.png; path = Resources/iconFlat.png; sourceTree = "<group>"; };
+		44A5958F14B90471004D6B90 /* squaresTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = squaresTitle.png; path = Resources/squaresTitle.png; sourceTree = "<group>"; };
+		44A5959014B90471004D6B90 /* grassIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grassIcon.png; path = Resources/grassIcon.png; sourceTree = "<group>"; };
+		44A5959114B90471004D6B90 /* winner_header2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = winner_header2.png; path = Resources/winner_header2.png; sourceTree = "<group>"; };
+		44A5959214B90471004D6B90 /* winner_footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = winner_footer.png; path = Resources/winner_footer.png; sourceTree = "<group>"; };
+		44A5959314B90471004D6B90 /* whitePad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whitePad.png; path = Resources/whitePad.png; sourceTree = "<group>"; };
+		44A5959414B90471004D6B90 /* padBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = padBorder.png; path = Resources/padBorder.png; sourceTree = "<group>"; };
+		44A5959514B90471004D6B90 /* initialsImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = initialsImage2.png; path = Resources/initialsImage2.png; sourceTree = "<group>"; };
+		44C1080812E93674004FAB57 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		44C1080912E93674004FAB57 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		44D7E15812ED0D50009081DC /* PaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintingView.h; sourceTree = "<group>"; };
+		44D7E15912ED0D50009081DC /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintingView.m; sourceTree = "<group>"; };
+		44F5B62412DE58CA0093CE66 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		44F5B62512DE58CA0093CE66 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		44F5B62712DE58DC0093CE66 /* GameController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GameController.xib; path = ../GameController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Pool-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pool-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* PoolAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PoolAppDelegate.m */,
+				448BC8A112EBBD41000B886F /* WelcomeView */,
+				448BC8A812EBBD63000B886F /* SelectTeamView */,
+				448BC97412EBD060000B886F /* PlayersTableView */,
+				448BC9C712EBD859000B886F /* PlayerInfoView */,
+				448BCC1B12EC19B0000B886F /* SelectCellsView */,
+				448BCC2F12EC1D2F000B886F /* InsertGamePointsView */,
+				448BCC3012EC1D53000B886F /* WinnersView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Pool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Pool_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				449F50D612FCCD80006E60A5 /* UIImage+Resizing.h */,
+				449F50D712FCCD80006E60A5 /* UIImage+Resizing.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44A5958614B90471004D6B90 /* goodIcon72x72.png */,
+				44A5958714B90471004D6B90 /* squaredIcon72x72.png */,
+				44A5958814B90471004D6B90 /* blueButton.png */,
+				44A5958914B90471004D6B90 /* gradeWithColor.png */,
+				44A5958A14B90471004D6B90 /* smallBluewArrow.png */,
+				44A5958B14B90471004D6B90 /* smallRedArrow.png */,
+				44A5958C14B90471004D6B90 /* grassGoodBackground.png */,
+				44A5958D14B90471004D6B90 /* iconFlat2.png */,
+				44A5958E14B90471004D6B90 /* iconFlat.png */,
+				44A5958F14B90471004D6B90 /* squaresTitle.png */,
+				44A5959014B90471004D6B90 /* grassIcon.png */,
+				44A5959114B90471004D6B90 /* winner_header2.png */,
+				44A5959214B90471004D6B90 /* winner_footer.png */,
+				44A5959314B90471004D6B90 /* whitePad.png */,
+				44A5959414B90471004D6B90 /* padBorder.png */,
+				44A5959514B90471004D6B90 /* initialsImage2.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Pool-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		448BC8A112EBBD41000B886F /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* PoolViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* PoolViewController.m */,
+				2899E5210DE3E06400AC0155 /* PoolViewController.xib */,
+			);
+			name = WelcomeView;
+			sourceTree = "<group>";
+		};
+		448BC8A812EBBD63000B886F /* SelectTeamView */ = {
+			isa = PBXGroup;
+			children = (
+				448BC87812EBBA60000B886F /* SelectTeamsController.h */,
+				448BC87912EBBA60000B886F /* SelectTeamsController.m */,
+				448BC87A12EBBA60000B886F /* SelectTeamsController.xib */,
+			);
+			name = SelectTeamView;
+			sourceTree = "<group>";
+		};
+		448BC97412EBD060000B886F /* PlayersTableView */ = {
+			isa = PBXGroup;
+			children = (
+				443C27EA12DC136B00219E87 /* UsersViewController.h */,
+				443C27EB12DC136B00219E87 /* UsersViewController.m */,
+				449B270F12EF7C6200DD37F1 /* CellView.h */,
+				449B271012EF7C6200DD37F1 /* CellView.m */,
+				449B271212EF7C7500DD37F1 /* CellView.xib */,
+			);
+			name = PlayersTableView;
+			sourceTree = "<group>";
+		};
+		448BC9C712EBD859000B886F /* PlayerInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				44F824BB12F895B4006F24DE /* PaitingView */,
+				449F507512FCC9EE006E60A5 /* PlayerInfoViewController.h */,
+				448BCBE212EC11AB000B886F /* PlayerInfoViewController.m */,
+				448BCBE312EC11AB000B886F /* PlayerInfoViewController.xib */,
+			);
+			name = PlayerInfoView;
+			sourceTree = "<group>";
+		};
+		448BCC1B12EC19B0000B886F /* SelectCellsView */ = {
+			isa = PBXGroup;
+			children = (
+				4455696A12DDDA4D00BC4225 /* SelectCellsController.h */,
+				4455696B12DDDA4D00BC4225 /* SelectCellsController.m */,
+				4455696D12DDDA8200BC4225 /* SelectCellsController.xib */,
+			);
+			name = SelectCellsView;
+			sourceTree = "<group>";
+		};
+		448BCC2F12EC1D2F000B886F /* InsertGamePointsView */ = {
+			isa = PBXGroup;
+			children = (
+				44F5B62412DE58CA0093CE66 /* GameController.h */,
+				44F5B62512DE58CA0093CE66 /* GameController.m */,
+				44F5B62712DE58DC0093CE66 /* GameController.xib */,
+			);
+			name = InsertGamePointsView;
+			sourceTree = "<group>";
+		};
+		448BCC3012EC1D53000B886F /* WinnersView */ = {
+			isa = PBXGroup;
+			children = (
+				44C1080812E93674004FAB57 /* ResultsViewController.h */,
+				44C1080912E93674004FAB57 /* ResultsViewController.m */,
+				4417836912EEB2D300661EB4 /* ResultsViewController.xib */,
+			);
+			name = WinnersView;
+			sourceTree = "<group>";
+		};
+		44F824BB12F895B4006F24DE /* PaitingView */ = {
+			isa = PBXGroup;
+			children = (
+				44D7E15812ED0D50009081DC /* PaintingView.h */,
+				44D7E15912ED0D50009081DC /* PaintingView.m */,
+			);
+			name = PaitingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Pool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Pool" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pool;
+			productName = Pool;
+			productReference = 1D6058910D05DD3D006BFB54 /* Pool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Pool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Pool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* PoolViewController.xib in Resources */,
+				4455696E12DDDA8200BC4225 /* SelectCellsController.xib in Resources */,
+				44F5B62812DE58DC0093CE66 /* GameController.xib in Resources */,
+				448BC87C12EBBA60000B886F /* SelectTeamsController.xib in Resources */,
+				448BCBE512EC11AB000B886F /* PlayerInfoViewController.xib in Resources */,
+				4417836A12EEB2D300661EB4 /* ResultsViewController.xib in Resources */,
+				449B271312EF7C7500DD37F1 /* CellView.xib in Resources */,
+				44A5959614B90471004D6B90 /* goodIcon72x72.png in Resources */,
+				44A5959714B90471004D6B90 /* squaredIcon72x72.png in Resources */,
+				44A5959814B90471004D6B90 /* blueButton.png in Resources */,
+				44A5959914B90471004D6B90 /* gradeWithColor.png in Resources */,
+				44A5959A14B90471004D6B90 /* smallBluewArrow.png in Resources */,
+				44A5959B14B90471004D6B90 /* smallRedArrow.png in Resources */,
+				44A5959C14B90471004D6B90 /* grassGoodBackground.png in Resources */,
+				44A5959D14B90471004D6B90 /* iconFlat2.png in Resources */,
+				44A5959E14B90471004D6B90 /* iconFlat.png in Resources */,
+				44A5959F14B90471004D6B90 /* squaresTitle.png in Resources */,
+				44A595A014B90471004D6B90 /* grassIcon.png in Resources */,
+				44A595A114B90471004D6B90 /* winner_header2.png in Resources */,
+				44A595A214B90471004D6B90 /* winner_footer.png in Resources */,
+				44A595A314B90471004D6B90 /* whitePad.png in Resources */,
+				44A595A414B90471004D6B90 /* padBorder.png in Resources */,
+				44A595A514B90471004D6B90 /* initialsImage2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PoolAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* PoolViewController.m in Sources */,
+				443C27EC12DC136B00219E87 /* UsersViewController.m in Sources */,
+				4455696C12DDDA4D00BC4225 /* SelectCellsController.m in Sources */,
+				44F5B62612DE58CA0093CE66 /* GameController.m in Sources */,
+				44C1080A12E93674004FAB57 /* ResultsViewController.m in Sources */,
+				448BC87B12EBBA60000B886F /* SelectTeamsController.m in Sources */,
+				448BCBE412EC11AB000B886F /* PlayerInfoViewController.m in Sources */,
+				44D7E15A12ED0D50009081DC /* PaintingView.m in Sources */,
+				449B271112EF7C6200DD37F1 /* CellView.m in Sources */,
+				449F50D812FCCD80006E60A5 /* UIImage+Resizing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Desktop/Victor/workspace/Pool/Entitlements.plist";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Bragiel";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Pool_Prefix.pch;
+				INFOPLIST_FILE = "Pool-Info.plist";
+				PRODUCT_NAME = Pool;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36E58B40-DC8F-47FE-BEFE-0C664ED1C653";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Bragiel";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Bragiel";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Pool_Prefix.pch;
+				INFOPLIST_FILE = "Pool-Info.plist";
+				PRODUCT_NAME = Pool;
+				PROVISIONING_PROFILE = "36E58B40-DC8F-47FE-BEFE-0C664ED1C653";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36E58B40-DC8F-47FE-BEFE-0C664ED1C653";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Bragiel";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36E58B40-DC8F-47FE-BEFE-0C664ED1C653";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Bragiel";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36E58B40-DC8F-47FE-BEFE-0C664ED1C653";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Pool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Pool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

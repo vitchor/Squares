@@ -1,0 +1,1984 @@
+TPool
+v7
+r0
+t318991539.243265
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Pool.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Info.plist Pool-Info.plist
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/MainWindow.xib
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../PoolViewController.xib
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../SelectCellsController.xib
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../GameController.xib
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.xib
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/initialsImage2.png initialsImage2.png
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.xib
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/padBorder.png ../../../padBorder.png
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/whitePad.png whitePad.png
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.xib
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/winner_footer.png winner_footer.png
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/winner_header2.png winner_header2.png
+cCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.xib
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/squaresTitle.png squaresTitle.png
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/iconFlat2.png iconFlat2.png
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassGoodBackground.png grassGoodBackground.png
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gradeWithColor.png gradeWithColor.png
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/smallBluewArrow.png smallBluewArrow.png
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/smallRedArrow.png smallRedArrow.png
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/blueButton.png blueButton.png
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/squaredIcon72x72.png squaredIcon72x72.png
+cCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/goodIcon72x72.png goodIcon72x72.png
+cCpResource build/Debug-iphoneos/Pool.app/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision 9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision
+cProcessPCH /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch.gch Pool_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/main.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PoolAppDelegate.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PoolViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/UsersViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/SelectCellsController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/GameController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/ResultsViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/SelectTeamsController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PlayerInfoViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PaintingView.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/CellView.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/UIImage+Resizing.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/UIImage+Resizing.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool normal armv7
+cGenerateDSYMFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app.dSYM /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool
+cProcessProductPackaging "/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision
+cTouch /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool.xcent
+cCodeSign /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../../grade3.png
+c000000004D31128600000000000368D3
+t1295061638
+s223443
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../../padBorder.png
+c000000004D3D04100000000000000951
+t1295844368
+s2385
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../BlueLabel.png
+c000000004D38CE6A0000000000001B43
+t1295568490
+s6979
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../RedLabel.png
+c000000004D38CE8800000000000027E3
+t1295568520
+s10211
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../degrade.png
+c000000004D310A080000000000024EF9
+t1295059464
+s151289
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../SuperBowlSquares.png
+c000000004D3A09200000000000060E22
+t1295649056
+s396834
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../TheSummitFormated.png
+c000000004D39F4420000000000021592
+t1295643714
+s136594
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../cardinals.png
+c000000004D2F44A30000000000005844
+t1294943395
+s22596
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../initial.jpg
+c000000004D2B87CF0000000000023903
+t1294698447
+s145667
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../superbowl.png
+c000000004D3104E00000000000031786
+t1295058144
+s202630
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision
+c000000004D53337A0000000000001BF4
+t1297298298
+s7156
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray1.png
+c000000004D489E880000000000000206
+t1296604808
+s518
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray2.png
+c000000004D489EB00000000000000206
+t1296604848
+s518
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray3.png
+c000000004D489EF80000000000000206
+t1296604920
+s518
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray4.png
+c000000004D489F0A0000000000000206
+t1296604938
+s518
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray5.png
+c000000004D489FDA0000000000001CFD
+t1296605146
+s7421
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray6.png
+c000000004D489FE60000000000001A33
+t1296605158
+s6707
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray7.png
+c000000004D48A08E0000000000004013
+t1296605326
+s16403
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray8.png
+c000000004D48A0C600000000000001E5
+t1296605382
+s485
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray9.png
+c000000004D48A3400000000000001516
+t1296606016
+s5398
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/BlueLabel.png
+c000000004D38CE6A0000000000001B43
+t1295568490
+s6979
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../GameController.xib
+c000000004D52EF5D000000000004069E
+t1297280861
+s263838
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../InfoViewController.xib
+c000000004D3F2E4A0000000000006D38
+t1295986250
+s27960
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../PoolViewController.xib
+c000000004D4E014A000000000005CF45
+t1296957770
+s380741
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../SelectCellsController.xib
+c000000004D4E11D8000000000004983A
+t1296962008
+s301114
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.h
+c000000004D3F45FA0000000000000204
+t1295992314
+s516
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m
+c000000004D52E6C40000000000000338
+t1297278660
+s824
+i"CellView.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.xib
+c000000004D4B07220000000000005877
+t1296762658
+s22647
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ColorPickerView.h
+c000000004D4876EB00000000000005D7
+t1296594667
+s1495
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ColorPickerView.m
+c000000004D4897DA00000000000021BB
+t1296603098
+s8635
+i"ColorPickerView.h"
+i"GradientView.h"
+i"Constants.h"
+i"PlayerInfoViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/Constants.h
+c000000004D4896AD0000000000000282
+t1296602797
+s642
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.h
+c000000004D52ECBC000000000000432B
+t1297280188
+s17195
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m
+c000000004D52F3090000000000008C39
+t1297281801
+s35897
+i"GameController.h"
+i"ResultsViewController.h"
+i"PoolAppDelegate.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GradientView.h
+c0000000049C8A6D30000000000000146
+t1237886675
+s326
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GradientView.m
+c0000000049C8B5CC000000000000082F
+t1237890508
+s2095
+i"GradientView.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.h
+c000000004D39E89200000000000000FF
+t1295640722
+s255
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m
+c000000004D39ECC800000000000005C0
+t1295641800
+s1472
+i"InfoViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.h
+c000000004D518C2B000000000000041E
+t1297189931
+s1054
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m
+c000000004D52F3420000000000000C38
+t1297281858
+s3128
+i"PaintingView.h"
+i"UIImage+Resizing.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.h
+c000000004D519C650000000000000B9C
+t1297194085
+s2972
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m
+c000000004D52F25E0000000000002C78
+t1297281630
+s11384
+i"PlayerInfoViewController.h"
+i"PaintingView.h"
+i"SelectCellsController.h"
+i"PoolAppDelegate.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.xib
+c000000004D519E0C0000000000009EBC
+t1297194508
+s40636
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.h
+c000000004D50838500000000000002E0
+t1297122181
+s736
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m
+c000000004D4C874B00000000000007D2
+t1296861003
+s2002
+i"PoolAppDelegate.h"
+i"PoolViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.h
+c000000004D4E0119000000000000022A
+t1296957721
+s554
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m
+c000000004D4E01B6000000000000067C
+t1296957878
+s1660
+i"PoolViewController.h"
+i"SelectTeamsController.h"
+i"PoolAppDelegate.h"
+i"InfoViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.h
+c000000004D49B9A90000000000000F2E
+t1296677289
+s3886
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m
+c000000004D4B6DED000000000000286F
+t1296788973
+s10351
+i"ResultsViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.xib
+c000000004D4A1E190000000000009092
+t1296703001
+s37010
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.h
+c000000004D4E0F7800000000000030ED
+t1296961400
+s12525
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m
+c000000004D519C600000000000003175
+t1297194080
+s12661
+i"SelectCellsController.h"
+i"PoolAppDelegate.h"
+i"GameController.h"
+i"UsersViewController.h"
+i"PlayerInfoViewController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.h
+c000000004D4B46CC00000000000004F9
+t1296778956
+s1273
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m
+c000000004D52F1B700000000000023F7
+t1297281463
+s9207
+i"SelectTeamsController.h"
+i"UsersViewController.h"
+i"PoolAppDelegate.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.xib
+c000000004D4C78200000000000009210
+t1296857120
+s37392
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UIImage+Resizing.h
+c000000004D4C931E0000000000000100
+t1296864030
+s256
+i<Foundation/Foundation.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.h
+c000000004D4C729900000000000007A9
+t1296855705
+s1961
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m
+c000000004D52E7DC0000000000002CB9
+t1297278940
+s11449
+i"UsersViewController.h"
+i"PoolAppDelegate.h"
+i"CellView.h"
+i"PlayerInfoViewController.h"
+i"GameController.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Default.png
+c000000004D49E89A0000000000003DA6
+t1296689306
+s15782
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/InitialsImage.png
+c000000004D3BD69400000000000058DF
+t1295767188
+s22751
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/MainWindow.xib
+c000000004D48935700000000000064BE
+t1296601943
+s25790
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/PoolViewController.xib
+c000000004D2BD9840000000000005AFA
+t1294719364
+s23290
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Pool_Prefix.pch
+c000000004D2BD05B00000000000000B1
+t1294717019
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/RedLabel.png
+c000000004D38CE8800000000000027E3
+t1295568520
+s10211
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/UIImage+Resizing.h
+c000000004D4C964F0000000000000100
+t1296864847
+s256
+i<Foundation/Foundation.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/UIImage+Resizing.m
+c000000004D4C967A000000000000028E
+t1296864890
+s654
+i"UIImage+Resizing.h"
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon.png
+c000000004D47698E0000000000004E32
+t1296525710
+s20018
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon2.png
+c000000004D476CDE0000000000003953
+t1296526558
+s14675
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon3.png
+c000000004D476E5A0000000000003CA1
+t1296526938
+s15521
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon4.png
+c000000004D476EB20000000000003C06
+t1296527026
+s15366
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/background.png
+c0000000049D364E200000000000020FD
+t1238590690
+s8445
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/background2.png
+c000000004D4898CA0000000000001C9F
+t1296603338
+s7327
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/background3.png
+c000000004D489A1A0000000000001A17
+t1296603674
+s6679
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/bar_select.png
+c0000000049D3640F00000000000001CA
+t1238590479
+s458
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/blueButton.png
+c000000004D4B439900000000000005BC
+t1296778137
+s1468
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/blue_arrow2.png
+c000000004D46F6E60000000000001617
+t1296496358
+s5655
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app
+t1297298739
+s1088
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app.dSYM
+t1297298739
+s102
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision
+t1297298736
+s7156
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/BlueLabel.png
+t1296683834
+s7314
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/CellView.nib
+t1297298734
+s2066
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Default.png
+t1296695150
+s4577
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/GameController.nib
+t1297298731
+s19784
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Info.plist
+t1297298730
+s895
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/InfoViewController.nib
+t1296254878
+s2593
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/InitialsImage.png
+t1296254880
+s27163
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/MainWindow.nib
+t1297298730
+s1570
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/PkgInfo
+t1297298730
+s8
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/PlayerInfoViewController.nib
+t1297298733
+s3701
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool
+t1297298739
+s390256
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/PoolViewController.nib
+t1297298730
+s1956
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/RedLabel.png
+t1296683834
+s10498
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/ResourceRules.plist
+t1297298730
+s485
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/ResultsViewController.nib
+t1297298733
+s2947
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/SelectCellsController.nib
+t1297298732
+s26896
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/SelectTeamsController.nib
+t1297298732
+s3259
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/SuperBowlSquares.png
+t1296254879
+s369648
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/TheSummitFormated.png
+t1296254878
+s109261
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon.png
+t1296683834
+s16156
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon2.png
+t1296683834
+s15322
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon3.png
+t1296683834
+s16073
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon4.png
+t1296683834
+s15897
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background.png
+t1296683834
+s7965
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background2.png
+t1296683834
+s4022
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background3.png
+t1296683834
+s4101
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/bar_select.png
+t1296683834
+s471
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/blueButton.png
+t1297298736
+s1586
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/blue_arrow2.png
+t1296683834
+s5430
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/cardinals.png
+t2
+s0
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/colormap.png
+t1296683834
+s11649
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/colormap2.png
+t1296854539
+s30954
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/crosshair.png
+t1296683834
+s660
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/degrade.png
+t1296254880
+s142496
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision
+t1297298739
+s7156
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/goodIcon72x72.png
+t1297298736
+s12269
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grade3.png
+t1296254877
+s159880
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gradeWithColor.png
+t1297298736
+s171003
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassBackground2.png
+t1296695151
+s824222
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassBackgtound.png
+t1296695151
+s797359
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassGoodBackground.png
+t1297298737
+s1915110
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassIcon.png
+t1296695152
+s711212
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray1.png
+t1296683834
+s518
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray2.png
+t1296683834
+s518
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray3.png
+t1296683834
+s518
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray4.png
+t1296683834
+s518
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray5.png
+t1296683835
+s7320
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray6.png
+t1296683835
+s6902
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray7.png
+t1296683835
+s15678
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray8.png
+t1296683835
+s485
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray9.png
+t1296683835
+s5542
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/iconFlat.png
+t1296695152
+s798869
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/iconFlat2.png
+t1297298735
+s994555
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/initial.jpg
+t2
+s0
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/initialsImage2.png
+t1297298732
+s12425
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/newGrassBackground.png
+t1296854539
+s2281878
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/newGray.png
+t1296683835
+s6018
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/padBorder.png
+t1297298733
+s2243
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/red_arrow2.png
+t1296683834
+s5823
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/slfeup.png
+t1296254880
+s529
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/smallBluewArrow.png
+t1297298736
+s3166
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/smallRedArrow.png
+t1297298736
+s3189
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/squaredIcon72x72.png
+t1297298736
+s11984
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/squaresTitle.png
+t1297298734
+s50811
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/stripes2.png
+t1296254882
+s102456
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/stripes_formated.png
+t1296254881
+s55658
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/superbowl.png
+t1296254876
+s234731
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/tableCellDegrade.png
+t1296254882
+s843
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/tableCellDegrade2.png
+t1296254882
+s851
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/whitePad.png
+t1297298733
+s226
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/winner_footer.png
+t1297298733
+s4413
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/winner_header2.png
+t1297298734
+s203932
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/CellView.o
+t1297298738
+s41360
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/ColorPickerView.o
+t1296683836
+s71188
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/GameController.o
+t1297298738
+s292712
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/GradientView.o
+t1296683836
+s42472
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/InfoViewController.o
+t1296254884
+s38384
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PaintingView.o
+t1297298738
+s54580
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PlayerInfoViewController.o
+t1297298738
+s103020
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/Pool.LinkFileList
+c000000004D53352A0000000000000661
+t1297298730
+s1633
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PoolAppDelegate.o
+t1297298737
+s52552
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PoolViewController.o
+t1297298737
+s51000
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/ResultsViewController.o
+t1297298738
+s107084
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/SelectCellsController.o
+t1297298738
+s202456
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/SelectTeamsController.o
+t1297298738
+s81680
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/UIImage+Resizing.o
+t1297298738
+s8268
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/UsersViewController.o
+t1297298737
+s90296
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/main.o
+t1297298737
+s6460
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool.xcent
+t1297298739
+s404
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/colormap.png
+c0000000049D364180000000000002A33
+t1238590488
+s10803
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/colormap2.png
+c000000004D4B3042000000000001F738
+t1296773186
+s128824
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/crosshair.png
+c0000000049D3642B0000000000000212
+t1238590507
+s530
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/goodIcon72x72.png
+c000000004D530FC60000000000003342
+t1297289158
+s13122
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/gradeWithColor.png
+c000000004D4A10CC000000000002A63C
+t1296699596
+s173628
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassBackground2.png
+c000000004D49FB96000000000010EFAC
+t1296694166
+s1109932
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassBackgtound.png
+c000000004D49FB6C00000000001000D4
+t1296694124
+s1048788
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassGoodBackground.png
+c000000004D4A00360000000000272F1A
+t1296695350
+s2567962
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassIcon.png
+c000000004D49FB0000000000000E4086
+t1296694016
+s934022
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/iconFlat.png
+c000000004D49FC3400000000000FBF5A
+t1296694324
+s1032026
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/iconFlat2.png
+c000000004D49FEE400000000001348A0
+t1296695012
+s1263776
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/initialsImage2.png
+c000000004D3BD8520000000000002CBF
+t1295767634
+s11455
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m
+c000000004D2BD05B0000000000000160
+t1294717019
+s352
+i<UIKit/UIKit.h>
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/newGrassBackground.png
+c000000004D4A233E000000000029F6A1
+t1296704318
+s2750113
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/newGray.png
+c000000004D48AA3E0000000000004388
+t1296607806
+s17288
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/red_arrow2.png
+c000000004D46F6DE0000000000001867
+t1296496350
+s6247
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/slfeup.png
+c000000004D293ABA0000000000000223
+t1294547642
+s547
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/smallBluewArrow.png
+c000000004D4A0C800000000000000CF1
+t1296698496
+s3313
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/smallRedArrow.png
+c000000004D4A0C780000000000000C94
+t1296698488
+s3220
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/squaredIcon72x72.png
+c000000004D530E5000000000000032A1
+t1297288784
+s12961
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/squaresTitle.png
+c000000004D49FB48000000000000D0FA
+t1296694088
+s53498
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/stripes2.png
+c000000004D3F2C8C000000000001378A
+t1295985804
+s79754
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/stripes_formated.png
+c000000004D3F2AC2000000000000BB3F
+t1295985346
+s47935
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/tableCellDegrade.png
+c000000004D3F403800000000000002F5
+t1295990840
+s757
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/tableCellDegrade2.png
+c000000004D3F406000000000000002F5
+t1295990880
+s757
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/whitePad.png
+c000000004D3D111600000000000000E2
+t1295847702
+s226
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/winner_footer.png
+c000000004D3F36C60000000000001795
+t1295988422
+s6037
+
+N/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/winner_header2.png
+c000000004D3F390C000000000003A5BD
+t1295989004
+s239037
+
+N/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/1190F583-0C53-4E66-97BE-CD5094AC37C5.mobileprovision
+c000000004D4345180000000000001BF9
+t1296254232
+s7161
+
+N/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/2ADCD22A-AE21-431E-A93F-E4CD8BB33F1B.mobileprovision
+c000000004D4C9CA40000000000001C35
+t1296866468
+s7221
+
+N/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision
+c000000004D53337A0000000000001BF4
+t1297298298
+s7156
+
+N/var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch.gch
+t1297298737
+s10446552
+
+NPool-Info.plist
+c000000004D532A0F00000000000003DD
+t1297295887
+s989
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318991530#318991530#0(0"0(0#1#0"8607714272#0"0#
+
+CCodeSign /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app
+s318991539.092592
+e318991539.243157
+r0
+xCodeSign
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app
+o/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app: CSSMERR_TP_NOT_TRUSTED
+lSLF07#2@38"CodeSign build/Debug-iphoneos/Pool.app318991539#318991539#0(157"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app: CSSMERR_TP_NOT_TRUSTEDCommand /usr/bin/codesign failed with exit code 11(4@49"Command /usr/bin/codesign failed with exit code 1318991539#18446744073709551615#0#0(1@0"0(0#0#82"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app8605234048#687"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Guava Apps (C757UQMZUN)" --resource-rules=/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/ResourceRules.plist --entitlements /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool.xcent /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app1#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/CellView.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991538.802609
+e318991538.908305
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/CellView.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m318991538#318991538#0(0"0(0#0#71"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m8599903968#1834"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/CellView.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/ColorPickerView.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ColorPickerView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318376636.672165
+e318376636.850280
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/ColorPickerView.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ColorPickerView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ColorPickerView.m318376636#318376636#0(0"0(0#0#78"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ColorPickerView.m8636033056#1848"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ColorPickerView.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/ColorPickerView.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/GameController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991537.944861
+e318991538.682959
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/GameController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m318991537#318991538#0(0"0(0#0#77"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m8603536288#1846"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GameController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/GameController.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/GradientView.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GradientView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318376636.726320
+e318376636.810367
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/GradientView.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GradientView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GradientView.m318376636#318376636#0(0"0(0#0#75"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GradientView.m8637600096#1842"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/GradientView.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/GradientView.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/InfoViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317947684.118736
+e317947684.181491
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/InfoViewController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m317947684#317947684#0(0"0(0#0#81"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m8642260064#1854"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/InfoViewController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/InfoViewController.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PaintingView.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991538.683059
+e318991538.802507
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PaintingView.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m318991538#318991538#0(0"0(0#0#75"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m8601164288#1842"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PaintingView.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PaintingView.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PlayerInfoViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991538.647683
+e318991538.887773
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PlayerInfoViewController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m318991538#318991538#0(0"0(0#0#87"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m8602452448#1866"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PlayerInfoViewController.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PoolAppDelegate.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991537.646425
+e318991537.739820
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PoolAppDelegate.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m318991537#318991537#0(0"0(0#0#78"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m8605335872#1848"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolAppDelegate.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PoolAppDelegate.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PoolViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991537.707839
+e318991537.803623
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PoolViewController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m318991537#318991537#0(0"0(0#0#81"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m8605188416#1854"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PoolViewController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/PoolViewController.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/ResultsViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991538.290007
+e318991538.503791
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/ResultsViewController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m318991538#318991538#0(0"0(0#0#84"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m8603190624#1860"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/ResultsViewController.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/SelectCellsController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991537.803727
+e318991538.289907
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/SelectCellsController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m318991537#318991538#0(0"0(0#0#84"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m8604946272#1860"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectCellsController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/SelectCellsController.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/SelectTeamsController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991538.503894
+e318991538.647582
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/SelectTeamsController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m318991538#318991538#0(0"0(0#0#84"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m8602930848#1860"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/SelectTeamsController.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/UIImage+Resizing.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/UIImage+Resizing.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991538.887876
+e318991538.951443
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/UIImage+Resizing.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/UIImage+Resizing.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/UIImage+Resizing.m318991538#318991538#0(0"0(0#0#71"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/UIImage+Resizing.m8595489792#1842"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/UIImage+Resizing.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/UIImage+Resizing.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/UsersViewController.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991537.739927
+e318991537.944696
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/UsersViewController.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m318991537#318991537#0(0"0(0#0#82"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m8605069120#1856"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/UsersViewController.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/UsersViewController.o0#
+
+CCompileC build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/main.o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991537.645459
+e318991537.707736
+r1
+xCompileC
+xbuild/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/main.o
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m318991537#318991537#0(0"0(0#0#59"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m8605471200#1818"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -include /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/main.m -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../GameController.xib
+s318991530.677506
+e318991531.998723
+r1
+xCompileXIB
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../GameController.xib
+lSLF07#2@40"CompileXIB Classes/../GameController.xib318991530#318991531#0(0"0(0#0#82"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../GameController.xib8604950368#600"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/GameController.nib /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../GameController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../InfoViewController.xib
+s317947677.611520
+e317947678.114008
+r1
+xCompileXIB
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../InfoViewController.xib
+lSLF07#2@44"CompileXIB Classes/../InfoViewController.xib317947677#317947678#0(0"0(0#0#86"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../InfoViewController.xib8639363840#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/InfoViewController.nib /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../InfoViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../PoolViewController.xib
+s318991530.119393
+e318991530.677417
+r1
+xCompileXIB
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../PoolViewController.xib
+lSLF07#2@44"CompileXIB Classes/../PoolViewController.xib318991530#318991530#0(0"0(0#0#86"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../PoolViewController.xib8607716256#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/PoolViewController.nib /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../PoolViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../SelectCellsController.xib
+s318991530.644146
+e318991533.198821
+r1
+xCompileXIB
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../SelectCellsController.xib
+lSLF07#2@47"CompileXIB Classes/../SelectCellsController.xib318991530#318991533#0(0"0(0#0#89"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../SelectCellsController.xib8605053056#614"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/SelectCellsController.nib /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/../SelectCellsController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.xib
+s318991533.969405
+e318991534.459092
+r1
+xCompileXIB
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.xib
+lSLF07#2@31"CompileXIB Classes/CellView.xib318991533#318991534#0(0"0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.xib8605186560#585"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/CellView.nib /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/CellView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.xib
+s318991532.664251
+e318991533.287665
+r1
+xCompileXIB
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.xib
+lSLF07#2@47"CompileXIB Classes/PlayerInfoViewController.xib318991532#318991533#0(0"0(0#0#89"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.xib8607636352#617"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/PlayerInfoViewController.nib /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/PlayerInfoViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.xib
+s318991533.287755
+e318991533.969237
+r1
+xCompileXIB
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.xib
+lSLF07#2@44"CompileXIB Classes/ResultsViewController.xib318991533#318991533#0(0"0(0#0#86"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.xib8611738176#611"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/ResultsViewController.nib /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/ResultsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.xib
+s318991531.998888
+e318991532.584713
+r1
+xCompileXIB
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.xib
+lSLF07#2@44"CompileXIB Classes/SelectTeamsController.xib318991531#318991532#0(0"0(0#0#86"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.xib8600989440#611"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/SelectTeamsController.nib /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Classes/SelectTeamsController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/MainWindow.xib
+s318991530.118694
+e318991530.644053
+r1
+xCompileXIB
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib318991530#318991530#0(0"0(0#0#67"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/MainWindow.xib8611566560#581"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/MainWindow.nib /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/PoolViewController.xib
+r0
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/BlueLabel.png ../../BlueLabel.png
+s317947677.334450
+e317947677.473454
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/BlueLabel.png
+x../../BlueLabel.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Pool.app/BlueLabel.png ../../BlueLabel.png317947677#317947677#0(0"0(0#0#72"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../BlueLabel.png8638831616#611"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../BlueLabel.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/BlueLabel.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/BlueLabel.png BlueLabel.png
+s318376634.218985
+e318376634.352743
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/BlueLabel.png
+xBlueLabel.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Pool.app/BlueLabel.png BlueLabel.png318376634#318376634#0(0"0(0#0#66"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/BlueLabel.png8635755552#605"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/BlueLabel.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/BlueLabel.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Default.png Default.png
+s318387950.214592
+e318387950.417848
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Default.png
+xDefault.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pool.app/Default.png Default.png318387950#318387950#0(0"0(0#0#64"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Default.png8646734624#601"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Default.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Default.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/InitialsImage.png InitialsImage.png
+s317947680.041422
+e317947680.175248
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/InitialsImage.png
+xInitialsImage.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Pool.app/InitialsImage.png InitialsImage.png317947680#317947680#0(0"0(0#0#70"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/InitialsImage.png8623999328#613"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/InitialsImage.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/InitialsImage.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/RedLabel.png ../../RedLabel.png
+s317947677.473549
+e317947677.611433
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/RedLabel.png
+x../../RedLabel.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/Pool.app/RedLabel.png ../../RedLabel.png317947677#317947677#0(0"0(0#0#71"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../RedLabel.png8642530688#609"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../RedLabel.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/RedLabel.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/RedLabel.png RedLabel.png
+s318376634.352936
+e318376634.489314
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/RedLabel.png
+xRedLabel.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pool.app/RedLabel.png RedLabel.png318376634#318376634#0(0"0(0#0#65"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/RedLabel.png8623962752#603"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/RedLabel.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/RedLabel.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/SuperBowlSquares.png ../SuperBowlSquares.png
+s317947678.340125
+e317947679.472432
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/SuperBowlSquares.png
+x../SuperBowlSquares.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/Pool.app/SuperBowlSquares.png ../SuperBowlSquares.png317947678#317947679#0(0"0(0#0#76"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../SuperBowlSquares.png8635702944#622"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../SuperBowlSquares.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/SuperBowlSquares.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/TheSummitFormated.png ../TheSummitFormated.png
+s317947678.114105
+e317947678.340029
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/TheSummitFormated.png
+x../TheSummitFormated.png
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/Pool.app/TheSummitFormated.png ../TheSummitFormated.png317947678#317947678#0(0"0(0#0#77"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../TheSummitFormated.png8631488416#624"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../TheSummitFormated.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/TheSummitFormated.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon.png app_icon.png
+s318376634.471042
+e318376634.555583
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon.png
+xapp_icon.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pool.app/app_icon.png app_icon.png318376634#318376634#0(0"0(0#0#65"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon.png8636775104#603"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon2.png app_icon2.png
+s318376634.489406
+e318376634.556691
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon2.png
+xapp_icon2.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Pool.app/app_icon2.png app_icon2.png318376634#318376634#0(0"0(0#0#66"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon2.png8639644288#605"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon3.png app_icon3.png
+s318376634.555683
+e318376634.646741
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon3.png
+xapp_icon3.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Pool.app/app_icon3.png app_icon3.png318376634#318376634#0(0"0(0#0#66"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon3.png8623162688#605"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon3.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon3.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon4.png app_icon4.png
+s318376634.556860
+e318376634.636569
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon4.png
+xapp_icon4.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Pool.app/app_icon4.png app_icon4.png318376634#318376634#0(0"0(0#0#66"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon4.png8625422208#605"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/app_icon4.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/app_icon4.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background.png background.png
+s318376634.670531
+e318376634.744265
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background.png
+xbackground.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Pool.app/background.png background.png318376634#318376634#0(0"0(0#0#67"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/background.png8637447232#607"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/background.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background2.png background2.png
+s318376634.744359
+e318376634.803701
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background2.png
+xbackground2.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/Pool.app/background2.png background2.png318376634#318376634#0(0"0(0#0#68"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/background2.png8636480288#609"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/background2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background3.png background3.png
+s318376634.803793
+e318376634.866606
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background3.png
+xbackground3.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/Pool.app/background3.png background3.png318376634#318376634#0(0"0(0#0#68"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/background3.png8636032672#609"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/background3.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/background3.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/bar_select.png bar_select.png
+s318376634.636662
+e318376634.669189
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/bar_select.png
+xbar_select.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Pool.app/bar_select.png bar_select.png318376634#318376634#0(0"0(0#0#67"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/bar_select.png8636145280#607"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/bar_select.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/bar_select.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/blueButton.png blueButton.png
+s318991536.789360
+e318991536.817237
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/blueButton.png
+xblueButton.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Pool.app/blueButton.png blueButton.png318991536#318991536#0(0"0(0#0#67"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/blueButton.png8606689696#607"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/blueButton.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/blueButton.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/blue_arrow2.png blue_arrow2.png
+s318376634.072769
+e318376634.145757
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/blue_arrow2.png
+xblue_arrow2.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/Pool.app/blue_arrow2.png blue_arrow2.png318376634#318376634#0(0"0(0#0#68"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/blue_arrow2.png8607414304#609"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/blue_arrow2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/blue_arrow2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/cardinals.png ../cardinals.png
+s318388019.240948
+e318388019.272225
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/cardinals.png
+x../cardinals.png
+o
+oWhile reading /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../cardinals.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/cardinals.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/cardinals.png ../cardinals.png318388019#318388019#0(254"While reading /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../cardinals.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/cardinals.png0(0#0#69"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../cardinals.png8643188448#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../cardinals.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/cardinals.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/colormap.png colormap.png
+s318376634.669284
+e318376634.834430
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/colormap.png
+xcolormap.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pool.app/colormap.png colormap.png318376634#318376634#0(0"0(0#0#65"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/colormap.png8638013664#603"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/colormap.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/colormap.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/colormap2.png colormap2.png
+s318547338.603656
+e318547339.085027
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/colormap2.png
+xcolormap2.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Pool.app/colormap2.png colormap2.png318547338#318547339#0(0"0(0#0#66"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/colormap2.png8620944352#605"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/colormap2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/colormap2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/crosshair.png crosshair.png
+s318376634.646821
+e318376634.670460
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/crosshair.png
+xcrosshair.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Pool.app/crosshair.png crosshair.png318376634#318376634#0(0"0(0#0#66"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/crosshair.png8638134816#605"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/crosshair.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/crosshair.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/degrade.png ../../degrade.png
+s317947675.716694
+e317947680.280858
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/degrade.png
+x../../degrade.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Pool.app/degrade.png ../../degrade.png317947675#317947680#0(0"0(0#0#70"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../degrade.png8634661408#607"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../degrade.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/degrade.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/goodIcon72x72.png goodIcon72x72.png
+s318991536.848068
+e318991536.879998
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/goodIcon72x72.png
+xgoodIcon72x72.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Pool.app/goodIcon72x72.png goodIcon72x72.png318991536#318991536#0(0"0(0#0#70"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/goodIcon72x72.png8606176288#613"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/goodIcon72x72.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/goodIcon72x72.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grade3.png ../../../grade3.png
+s317947676.106050
+e317947677.334234
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grade3.png
+x../../../grade3.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/grade3.png ../../../grade3.png317947676#317947677#0(0"0(0#0#72"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../../grade3.png8628557408#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../../grade3.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grade3.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gradeWithColor.png gradeWithColor.png
+s318991535.747215
+e318991536.686425
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gradeWithColor.png
+xgradeWithColor.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Pool.app/gradeWithColor.png gradeWithColor.png318991535#318991536#0(0"0(0#0#71"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/gradeWithColor.png8611395520#615"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/gradeWithColor.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gradeWithColor.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassBackground2.png grassBackground2.png
+s318387950.336390
+e318387951.609924
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassBackground2.png
+xgrassBackground2.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Pool.app/grassBackground2.png grassBackground2.png318387950#318387951#0(0"0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassBackground2.png8646649536#619"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassBackground2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassBackground2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassBackgtound.png grassBackgtound.png
+s318387950.417943
+e318387951.566402
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassBackgtound.png
+xgrassBackgtound.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Pool.app/grassBackgtound.png grassBackgtound.png318387950#318387951#0(0"0(0#0#72"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassBackgtound.png8644922592#617"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassBackgtound.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassBackgtound.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassGoodBackground.png grassGoodBackground.png
+s318991534.546795
+e318991537.029018
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassGoodBackground.png
+xgrassGoodBackground.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/Pool.app/grassGoodBackground.png grassGoodBackground.png318991534#318991537#0(0"0(0#0#76"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassGoodBackground.png8603366304#625"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassGoodBackground.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassGoodBackground.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassIcon.png grassIcon.png
+s318387951.566575
+e318387952.772694
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassIcon.png
+xgrassIcon.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Pool.app/grassIcon.png grassIcon.png318387951#318387952#0(0"0(0#0#66"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassIcon.png8644700512#605"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/grassIcon.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/grassIcon.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray1.png Background/gray1.png
+s318376634.834519
+e318376634.855950
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray1.png
+xBackground/gray1.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/gray1.png Background/gray1.png318376634#318376634#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray1.png8635804960#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray1.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray1.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray2.png Background/gray2.png
+s318376634.856041
+e318376634.877401
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray2.png
+xBackground/gray2.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/gray2.png Background/gray2.png318376634#318376634#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray2.png8625166848#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray3.png Background/gray3.png
+s318376634.866701
+e318376634.888020
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray3.png
+xBackground/gray3.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/gray3.png Background/gray3.png318376634#318376634#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray3.png8624275712#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray3.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray3.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray4.png Background/gray4.png
+s318376634.877501
+e318376634.900022
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray4.png
+xBackground/gray4.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/gray4.png Background/gray4.png318376634#318376634#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray4.png8619505280#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray4.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray4.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray5.png Background/gray5.png
+s318376634.888113
+e318376635.005334
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray5.png
+xBackground/gray5.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/gray5.png Background/gray5.png318376634#318376635#0(0"0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray5.png8637845536#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray5.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray5.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray6.png Background/gray6.png
+s318376634.900112
+e318376635.014694
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray6.png
+xBackground/gray6.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/gray6.png Background/gray6.png318376634#318376635#0(0"0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray6.png8636713728#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray6.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray6.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray7.png Background/gray7.png
+s318376635.005427
+e318376635.166008
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray7.png
+xBackground/gray7.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/gray7.png Background/gray7.png318376635#318376635#0(0"0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray7.png8636247520#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray7.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray7.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray8.png Background/gray8.png
+s318376635.014790
+e318376635.035091
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray8.png
+xBackground/gray8.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/gray8.png Background/gray8.png318376635#318376635#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray8.png8635740096#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray8.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray8.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray9.png Background/gray9.png
+s318376635.035182
+e318376635.192545
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray9.png
+xBackground/gray9.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/gray9.png Background/gray9.png318376635#318376635#0(0"0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray9.png8627896928#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Background/gray9.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/gray9.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/iconFlat.png iconFlat.png
+s318387951.610014
+e318387952.765744
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/iconFlat.png
+xiconFlat.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pool.app/iconFlat.png iconFlat.png318387951#318387952#0(0"0(0#0#65"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/iconFlat.png8644639744#603"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/iconFlat.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/iconFlat.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/iconFlat2.png iconFlat2.png
+s318991534.459190
+e318991535.747060
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/iconFlat2.png
+xiconFlat2.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/Pool.app/iconFlat2.png iconFlat2.png318991534#318991535#0(0"0(0#0#66"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/iconFlat2.png8604782400#605"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/iconFlat2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/iconFlat2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/initialsImage2.png initialsImage2.png
+s318991532.584803
+e318991532.664160
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/initialsImage2.png
+xinitialsImage2.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Pool.app/initialsImage2.png initialsImage2.png318991532#318991532#0(0"0(0#0#71"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/initialsImage2.png8595880928#615"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/initialsImage2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/initialsImage2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/newGrassBackground.png newGrassBackground.png
+s318547337.389351
+e318547339.442817
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/newGrassBackground.png
+xnewGrassBackground.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/Pool.app/newGrassBackground.png newGrassBackground.png318547337#318547339#0(0"0(0#0#75"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/newGrassBackground.png8624461568#623"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/newGrassBackground.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/newGrassBackground.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/newGray.png newGray.png
+s318376635.166098
+e318376635.317803
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/newGray.png
+xnewGray.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Pool.app/newGray.png newGray.png318376635#318376635#0(0"0(0#0#64"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/newGray.png8623341728#601"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/newGray.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/newGray.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/padBorder.png ../../../padBorder.png
+s318991533.198917
+e318991533.274556
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/padBorder.png
+x../../../padBorder.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/Pool.app/padBorder.png ../../../padBorder.png318991533#318991533#0(0"0(0#0#75"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../../padBorder.png8606081536#614"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../../../padBorder.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/padBorder.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/red_arrow2.png red_arrow2.png
+s318376634.145851
+e318376634.218881
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/red_arrow2.png
+xred_arrow2.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Pool.app/red_arrow2.png red_arrow2.png318376634#318376634#0(0"0(0#0#67"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/red_arrow2.png8637610784#607"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/red_arrow2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/red_arrow2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/slfeup.png slfeup.png
+s317947680.017077
+e317947680.041324
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/slfeup.png
+xslfeup.png
+lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/Pool.app/slfeup.png slfeup.png317947680#317947680#0(0"0(0#0#63"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/slfeup.png8625423360#599"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/slfeup.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/slfeup.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/smallBluewArrow.png smallBluewArrow.png
+s318991536.686518
+e318991536.740599
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/smallBluewArrow.png
+xsmallBluewArrow.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/Pool.app/smallBluewArrow.png smallBluewArrow.png318991536#318991536#0(0"0(0#0#72"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/smallBluewArrow.png8607013824#617"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/smallBluewArrow.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/smallBluewArrow.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/smallRedArrow.png smallRedArrow.png
+s318991536.740693
+e318991536.789254
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/smallRedArrow.png
+xsmallRedArrow.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Pool.app/smallRedArrow.png smallRedArrow.png318991536#318991536#0(0"0(0#0#70"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/smallRedArrow.png8606877952#613"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/smallRedArrow.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/smallRedArrow.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/squaredIcon72x72.png squaredIcon72x72.png
+s318991536.817355
+e318991536.847954
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/squaredIcon72x72.png
+xsquaredIcon72x72.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Pool.app/squaredIcon72x72.png squaredIcon72x72.png318991536#318991536#0(0"0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/squaredIcon72x72.png8606409632#619"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/squaredIcon72x72.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/squaredIcon72x72.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/squaresTitle.png squaresTitle.png
+s318991534.128770
+e318991534.546697
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/squaresTitle.png
+xsquaresTitle.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/Pool.app/squaresTitle.png squaresTitle.png318991534#318991534#0(0"0(0#0#69"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/squaresTitle.png8597338016#611"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/squaresTitle.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/squaresTitle.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/stripes2.png stripes2.png
+s317947680.974924
+e317947682.080490
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/stripes2.png
+xstripes2.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pool.app/stripes2.png stripes2.png317947680#317947682#0(0"0(0#0#65"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/stripes2.png8624094432#603"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/stripes2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/stripes2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/stripes_formated.png stripes_formated.png
+s317947680.945184
+e317947681.530403
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/stripes_formated.png
+xstripes_formated.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Pool.app/stripes_formated.png stripes_formated.png317947680#317947681#0(0"0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/stripes_formated.png8640674816#619"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/stripes_formated.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/stripes_formated.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/superbowl.png ../superbowl.png
+s317947674.976091
+e317947676.105952
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/superbowl.png
+x../superbowl.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Pool.app/superbowl.png ../superbowl.png317947674#317947676#0(0"0(0#0#69"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../superbowl.png8637935648#608"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/../superbowl.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/superbowl.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/tableCellDegrade.png tableCellDegrade.png
+s317947682.080582
+e317947682.113810
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/tableCellDegrade.png
+xtableCellDegrade.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Pool.app/tableCellDegrade.png tableCellDegrade.png317947682#317947682#0(0"0(0#0#73"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/tableCellDegrade.png8622957568#619"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/tableCellDegrade.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/tableCellDegrade.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/tableCellDegrade2.png tableCellDegrade2.png
+s317947682.113905
+e317947682.145285
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/tableCellDegrade2.png
+xtableCellDegrade2.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/Pool.app/tableCellDegrade2.png tableCellDegrade2.png317947682#317947682#0(0"0(0#0#74"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/tableCellDegrade2.png8613504320#621"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/tableCellDegrade2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/tableCellDegrade2.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/whitePad.png whitePad.png
+s318991533.274646
+e318991533.301559
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/whitePad.png
+xwhitePad.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/Pool.app/whitePad.png whitePad.png318991533#318991533#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#65"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/whitePad.png8604780256#603"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/whitePad.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/whitePad.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/winner_footer.png winner_footer.png
+s318991533.301650
+e318991533.398001
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/winner_footer.png
+xwinner_footer.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Pool.app/winner_footer.png winner_footer.png318991533#318991533#0(0"0(0#0#70"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/winner_footer.png8609411328#613"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/winner_footer.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/winner_footer.png0#
+
+CCopyPNGFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/winner_header2.png winner_header2.png
+s318991533.398107
+e318991534.128675
+r1
+xCopyPNGFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/winner_header2.png
+xwinner_header2.png
+lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/Pool.app/winner_header2.png winner_header2.png318991533#318991534#0(0"0(0#0#71"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/winner_header2.png8607194976#615"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/winner_header2.png /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/winner_header2.png0#
+
+CCpResource build/Debug-iphoneos/Pool.app/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision 9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision
+s318991536.880115
+e318991536.885088
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pool.app/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision
+x9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision
+lSLF07#2@57"Copy 9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision318991536#318991536#0(0"0(0#0#105"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision8605916768#535"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app0#
+
+CCpResource build/Debug-iphoneos/Pool.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s318991530.097363
+e318991530.118608
+r1
+xCpResource
+xbuild/Debug-iphoneos/Pool.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist318991530#318991530#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8606218944#519"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app0#
+
+CCpResource build/Debug-iphoneos/Pool.app/initial.jpg ../initial.jpg
+r0
+
+CGenerateDSYMFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app.dSYM /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool
+s318991539.016797
+e318991539.067206
+r1
+xGenerateDSYMFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app.dSYM
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool
+lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/Pool.app.dSYM build/Debug-iphoneos/Pool.app/Pool318991539#318991539#0(0"0(0#0#87"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool8607012064#395"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app.dSYM0#
+
+CLd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool normal armv7
+s318991538.951542
+e318991539.016696
+r1
+xLd
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool
+xnormal
+xarmv7
+lSLF07#2@92"Link /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool318991538#318991539#0(0"0(0#0#0"8609742592#877"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -filelist /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Objects-normal/armv7/Pool.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Pool0#
+
+CProcessInfoPlistFile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Info.plist Pool-Info.plist
+s318991530.098473
+e318991530.113441
+r1
+xProcessInfoPlistFile
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Info.plist
+xPool-Info.plist
+lSLF07#2@23"Process Pool-Info.plist318991530#318991530#0(0"0(0#0#68"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Pool-Info.plist8606069408#606"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Pool-Info.plist -genpkginfo /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/ResourceRules.plist -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/Info.plist0#
+
+CProcessPCH /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch.gch Pool_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991537.029149
+e318991537.645287
+r1
+xProcessPCH
+x/var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch.gch
+xPool_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Pool_Prefix.pch318991537#318991537#0(0"0(0#0#68"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Pool_Prefix.pch8605661696#1705"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-generated-files.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-own-target-headers.hmap -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-all-target-headers.hmap -iquote /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool-project-headers.hmap -F/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/include -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources/armv7 -I/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/DerivedSources -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/Pool_Prefix.pch -o /var/folders/Y5/Y5qOaY8JFdK9v8rh9-Pkp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pool_Prefix-fdgfymtlheqpigbbomsshphuyahq/Pool_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/1190F583-0C53-4E66-97BE-CD5094AC37C5.mobileprovision" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision
+s317949685.979210
+e317949685.980566
+r1
+xProcessProductPackaging
+x/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/1190F583-0C53-4E66-97BE-CD5094AC37C5.mobileprovision
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/1190F583-0C53-4E66-97BE-CD5094AC37C5.mobileprovision" build/Debug-iphoneos/Pool.app/embedded.mobileprovision317949685#317949685#0(0"0(0#0#107"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision8619038464#458"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/1190F583-0C53-4E66-97BE-CD5094AC37C5.mobileprovision" -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/2ADCD22A-AE21-431E-A93F-E4CD8BB33F1B.mobileprovision" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision
+s318990593.092963
+e318990593.097127
+r1
+xProcessProductPackaging
+x/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/2ADCD22A-AE21-431E-A93F-E4CD8BB33F1B.mobileprovision
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/2ADCD22A-AE21-431E-A93F-E4CD8BB33F1B.mobileprovision" build/Debug-iphoneos/Pool.app/embedded.mobileprovision318990593#318990593#0(0"0(0#0#107"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision8623822624#458"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/2ADCD22A-AE21-431E-A93F-E4CD8BB33F1B.mobileprovision" -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision" /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision
+s318991539.067314
+e318991539.068488
+r1
+xProcessProductPackaging
+x/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision" build/Debug-iphoneos/Pool.app/embedded.mobileprovision318991539#318991539#0(0"0(0#0#107"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision8606361920#458"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/marciarozenfeld/Library/MobileDevice/Provisioning Profiles/9203CBBD-7899-41F0-99F0-78F39C64593F.mobileprovision" -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool.xcent
+s318991539.072559
+e318991539.092505
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool.xcent
+lSLF07#2@166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Pool.build/Debug-iphoneos/Pool.build/Pool.xcent318991539#318991539#0(0"0(0#0#106"/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool.xcent8605468864#451"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Pool.build/Debug-iphoneos/Pool.build/Pool.xcent0#
+
+CTouch /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app
+s318991539.068558
+e318991539.072450
+r1
+xTouch
+x/Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app
+lSLF07#2@88"Touch /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app318991539#318991539#0(0"0(0#0#0"8605986016#289"    cd /Users/marciarozenfeld/Desktop/Victor/workspace/Pool    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/marciarozenfeld/Desktop/Victor/workspace/Pool/build/Debug-iphoneos/Pool.app0#
+
