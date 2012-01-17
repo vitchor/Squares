@@ -11,8 +11,8 @@
 
 #define paintingViewWidth 574 
 #define paintingViewHeight 384 
-#define userImageWidth 90 
-#define userImageHeight 56 
+#define userImageWidth 89 
+#define userImageHeight 55
 
 
 @implementation PaintingView
