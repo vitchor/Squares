@@ -71,13 +71,13 @@
 							<int key="IBUIReturnKeyType">1</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="1071448054">
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="64894983">
 							<string key="name">Futura-Medium</string>
 							<string key="family">Futura</string>
 							<int key="traits">0</int>
 							<double key="pointSize">12</double>
 						</object>
-						<object class="NSFont" key="IBUIFont" id="521129379">
+						<object class="NSFont" key="IBUIFont" id="961611952">
 							<string key="NSName">Futura-Medium</string>
 							<double key="NSSize">12</double>
 							<int key="NSfFlags">16</int>
@@ -110,8 +110,8 @@
 							<int key="IBUIKeyboardType">4</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<reference key="IBUIFontDescription" ref="1071448054"/>
-						<reference key="IBUIFont" ref="521129379"/>
+						<reference key="IBUIFontDescription" ref="64894983"/>
+						<reference key="IBUIFont" ref="961611952"/>
 					</object>
 					<object class="IBUITextField" id="91331991">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -140,8 +140,8 @@
 							<int key="IBUIKeyboardType">4</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<reference key="IBUIFontDescription" ref="1071448054"/>
-						<reference key="IBUIFont" ref="521129379"/>
+						<reference key="IBUIFontDescription" ref="64894983"/>
+						<reference key="IBUIFont" ref="961611952"/>
 					</object>
 					<object class="IBUITextField" id="947909933">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -170,8 +170,8 @@
 							<int key="IBUIKeyboardType">4</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<reference key="IBUIFontDescription" ref="1071448054"/>
-						<reference key="IBUIFont" ref="521129379"/>
+						<reference key="IBUIFontDescription" ref="64894983"/>
+						<reference key="IBUIFont" ref="961611952"/>
 					</object>
 					<object class="IBUITextField" id="509865688">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -200,8 +200,8 @@
 							<int key="IBUIKeyboardType">4</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<reference key="IBUIFontDescription" ref="1071448054"/>
-						<reference key="IBUIFont" ref="521129379"/>
+						<reference key="IBUIFontDescription" ref="64894983"/>
+						<reference key="IBUIFont" ref="961611952"/>
 					</object>
 					<object class="IBUITextField" id="311681782">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -230,8 +230,8 @@
 							<int key="IBUIKeyboardType">4</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<reference key="IBUIFontDescription" ref="1071448054"/>
-						<reference key="IBUIFont" ref="521129379"/>
+						<reference key="IBUIFontDescription" ref="64894983"/>
+						<reference key="IBUIFont" ref="961611952"/>
 					</object>
 					<object class="IBUITextField" id="306620309">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -260,8 +260,8 @@
 							<int key="IBUIKeyboardType">4</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<reference key="IBUIFontDescription" ref="1071448054"/>
-						<reference key="IBUIFont" ref="521129379"/>
+						<reference key="IBUIFontDescription" ref="64894983"/>
+						<reference key="IBUIFont" ref="961611952"/>
 					</object>
 					<object class="IBUITextField" id="123961958">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -290,8 +290,8 @@
 							<int key="IBUIKeyboardType">4</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<reference key="IBUIFontDescription" ref="1071448054"/>
-						<reference key="IBUIFont" ref="521129379"/>
+						<reference key="IBUIFontDescription" ref="64894983"/>
+						<reference key="IBUIFont" ref="961611952"/>
 					</object>
 					<object class="IBUITextField" id="976240309">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -320,8 +320,8 @@
 							<int key="IBUIKeyboardType">4</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<reference key="IBUIFontDescription" ref="1071448054"/>
-						<reference key="IBUIFont" ref="521129379"/>
+						<reference key="IBUIFontDescription" ref="64894983"/>
+						<reference key="IBUIFont" ref="961611952"/>
 					</object>
 					<object class="IBUITextField" id="641630370">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -350,8 +350,8 @@
 							<int key="IBUIKeyboardType">4</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<reference key="IBUIFontDescription" ref="1071448054"/>
-						<reference key="IBUIFont" ref="521129379"/>
+						<reference key="IBUIFontDescription" ref="64894983"/>
+						<reference key="IBUIFont" ref="961611952"/>
 					</object>
 					<object class="IBUIImageView" id="238153084">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -1555,44 +1555,19 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<reference key="IBUIImage" ref="63258482"/>
 					</object>
-					<object class="IBUILabel" id="168628044">
+					<object class="IBUIImageView" id="5818628">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">300</int>
-						<string key="NSFrame">{{151, 265}, {798, 134}}</string>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 11}, {1024, 693}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="930750661"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MSAwAA</bytes>
-						</object>
-						<bool key="IBUIOpaque">NO</bool>
-						<float key="IBUIAlpha">0.80000001192092896</float>
+						<reference key="NSNextKeyView" ref="390155692"/>
+						<float key="IBUIAlpha">0.69999998807907104</float>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<string key="IBUIText">Random Numbers Being Generated</string>
-						<object class="NSColor" key="IBUITextColor" id="550849621">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MCAwIDAAA</bytes>
-						</object>
-						<object class="NSColor" key="IBUIHighlightedColor" id="776624069">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MQA</bytes>
-						</object>
-						<int key="IBUIBaselineAdjustment">1</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUINumberOfLines">0</int>
-						<int key="IBUITextAlignment">1</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription">
-							<string key="name">Futura-Medium</string>
-							<string key="family">Futura</string>
-							<int key="traits">0</int>
-							<double key="pointSize">48</double>
-						</object>
-						<object class="NSFont" key="IBUIFont">
-							<string key="NSName">Futura-Medium</string>
-							<double key="NSSize">48</double>
-							<int key="NSfFlags">16</int>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">table5.png</string>
 						</object>
 					</object>
 					<object class="IBUILabel" id="556024729">
@@ -1612,8 +1587,14 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<string key="IBUIText"/>
-						<reference key="IBUITextColor" ref="550849621"/>
-						<reference key="IBUIHighlightedColor" ref="776624069"/>
+						<object class="NSColor" key="IBUITextColor" id="550849621">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MCAwIDAAA</bytes>
+						</object>
+						<object class="NSColor" key="IBUIHighlightedColor" id="776624069">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MQA</bytes>
+						</object>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<object class="IBUIFontDescription" key="IBUIFontDescription">
@@ -1626,19 +1607,38 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="5818628">
+					<object class="IBUILabel" id="168628044">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{0, 11}, {1024, 693}}</string>
+						<int key="NSvFlags">300</int>
+						<string key="NSFrame">{{151, 265}, {798, 134}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="390155692"/>
-						<float key="IBUIAlpha">0.69999998807907104</float>
+						<reference key="NSNextKeyView" ref="930750661"/>
+						<object class="NSColor" key="IBUIBackgroundColor">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MSAwAA</bytes>
+						</object>
+						<bool key="IBUIOpaque">NO</bool>
+						<float key="IBUIAlpha">0.0</float>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">table5.png</string>
+						<string key="IBUIText">Random Numbers Being Generated</string>
+						<reference key="IBUITextColor" ref="550849621"/>
+						<reference key="IBUIHighlightedColor" ref="776624069"/>
+						<int key="IBUIBaselineAdjustment">1</int>
+						<float key="IBUIMinimumFontSize">10</float>
+						<int key="IBUINumberOfLines">0</int>
+						<int key="IBUITextAlignment">1</int>
+						<object class="IBUIFontDescription" key="IBUIFontDescription">
+							<string key="name">Futura-Medium</string>
+							<string key="family">Futura</string>
+							<int key="traits">0</int>
+							<double key="pointSize">48</double>
+						</object>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">Futura-Medium</string>
+							<double key="NSSize">48</double>
+							<int key="NSfFlags">16</int>
 						</object>
 					</object>
 					<object class="IBUILabel" id="882141701">
@@ -1660,7 +1660,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="166209978">
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="851190700">
 							<string key="name">Futura-Medium</string>
 							<string key="family">Futura</string>
 							<int key="traits">0</int>
@@ -1692,7 +1692,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="588625078">
@@ -1715,7 +1715,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="1035931845">
@@ -1738,7 +1738,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="238317191">
@@ -1761,7 +1761,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="357735843">
@@ -1784,7 +1784,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="679467294">
@@ -1807,7 +1807,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="12099225">
@@ -1830,7 +1830,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="39933445">
@@ -1853,7 +1853,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="549999299">
@@ -1876,7 +1876,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="102570603">
@@ -1898,7 +1898,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="844959510">
@@ -1921,7 +1921,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="223136673">
@@ -1944,7 +1944,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="282996879">
@@ -1967,7 +1967,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="845456601">
@@ -1990,7 +1990,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="58218169">
@@ -2013,7 +2013,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="723469063">
@@ -2036,7 +2036,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="307415396">
@@ -2059,7 +2059,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="333465872">
@@ -2082,7 +2082,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="26823341">
@@ -2105,7 +2105,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="166209978"/>
+						<reference key="IBUIFontDescription" ref="851190700"/>
 						<reference key="IBUIFont" ref="639499128"/>
 					</object>
 					<object class="IBUILabel" id="390155692">
@@ -2130,7 +2130,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="543700146">
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="14114186">
 							<string key="name">Futura-Medium</string>
 							<string key="family">Futura</string>
 							<int key="traits">0</int>
@@ -2161,7 +2161,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="543700146"/>
+						<reference key="IBUIFontDescription" ref="14114186"/>
 						<reference key="IBUIFont" ref="1025552122"/>
 					</object>
 				</object>
@@ -3601,10 +3601,10 @@
 							<reference ref="679467294"/>
 							<reference ref="12099225"/>
 							<reference ref="39933445"/>
-							<reference ref="556024729"/>
 							<reference ref="549999299"/>
 							<reference ref="5818628"/>
 							<reference ref="168628044"/>
+							<reference ref="556024729"/>
 							<reference ref="217283209"/>
 						</object>
 						<reference key="parent" ref="0"/>
