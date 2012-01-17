@@ -196,7 +196,7 @@
 		[alertButton release];
 	}
 	else if([nameTextField.text isEqualToString:emptyString]){
-		NSString *alertTitle = @"Choose your Name";
+		NSString *alertTitle = @"Choose name";
 		NSString *alertMsg = @"Finish choosing your name.";
 		NSString *alertButton = @"OK";
 		
@@ -207,7 +207,7 @@
 		[alertMsg release];
 		[alertButton release];
 	}else if([paintingView getImage]==nil | [paintingView getPoints]==nil| [[paintingView getPoints] count]<2){
-		NSString *alertTitle = @"Draw your Initials";
+		NSString *alertTitle = @"Draw initials";
 		NSString *alertMsg = @"Finish drawing your initials.";
 		NSString *alertButton = @"OK";
 		
