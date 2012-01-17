@@ -32,7 +32,7 @@
 	[nibNameString release];
 	
 	
-	NSString *childTitle = @"Select Teams";
+	NSString *childTitle = @"Choose Teams";
 	secondChildController.title = childTitle;
 	[childTitle release];
 	

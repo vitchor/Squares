@@ -29,7 +29,7 @@ static const CGFloat KEYBOARD_ANIMATION_DURATION = 0.3;
 static const CGFloat MINIMUM_SCROLL_FRACTION = 0.2;
 static const CGFloat MAXIMUM_SCROLL_FRACTION = 0.8;
 static const CGFloat LANDSCAPE_RIGHT_KEYBOARD_HEIGHT = 350;
-static const CGFloat LANDSCAPE_LEFT_KEYBOARD_HEIGHT = 6800;
+static const CGFloat LANDSCAPE_LEFT_KEYBOARD_HEIGHT = 680;
 
 -(void)backButtonAction{
 	
