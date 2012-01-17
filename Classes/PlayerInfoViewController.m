@@ -184,8 +184,8 @@
 		[nameTextField resignFirstResponder];
 	
 	if(nameNotOK){
-		NSString *alertTitle = @"Choose another name!";
-		NSString *alertMsg = @"Someone has already chosen this name!";
+		NSString *alertTitle = @"Choose another name";
+		NSString *alertMsg = @"Someone has already chosen this name.";
 		NSString *alertButton = @"OK";
 		
 		UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:alertTitle message:alertMsg delegate:self cancelButtonTitle:alertButton otherButtonTitles:nil] autorelease];
@@ -196,8 +196,8 @@
 		[alertButton release];
 	}
 	else if([nameTextField.text isEqualToString:emptyString]){
-		NSString *alertTitle = @"Choose your Name!";
-		NSString *alertMsg = @"Finish choosing your name!";
+		NSString *alertTitle = @"Choose your Name";
+		NSString *alertMsg = @"Finish choosing your name.";
 		NSString *alertButton = @"OK";
 		
 		UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:alertTitle message:alertMsg delegate:self cancelButtonTitle:alertButton otherButtonTitles:nil] autorelease];
@@ -207,8 +207,8 @@
 		[alertMsg release];
 		[alertButton release];
 	}else if([paintingView getImage]==nil | [paintingView getPoints]==nil| [[paintingView getPoints] count]<2){
-		NSString *alertTitle = @"Draw your Initials!";
-		NSString *alertMsg = @"Finish drawing your initials!";
+		NSString *alertTitle = @"Draw your Initials";
+		NSString *alertMsg = @"Finish drawing your initials.";
 		NSString *alertButton = @"OK";
 		
 		UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:alertTitle message:alertMsg delegate:self cancelButtonTitle:alertButton otherButtonTitles:nil] autorelease];
