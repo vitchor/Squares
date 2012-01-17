@@ -8,8 +8,11 @@
 
 #import "PaintingView.h"
 #import "UIImage+Resizing.h"
+
 #define paintingViewWidth 574 
 #define paintingViewHeight 384 
+#define userImageWidth 90 
+#define userImageHeight 56 
 
 
 @implementation PaintingView
@@ -143,7 +146,7 @@
 	}
 	
 	rawImage = [[UIImage alloc] initWithCGImage:imageRef];
-	UIImage* thumbnail = [rawImage resizedImageWithSize:CGSizeMake(78,46)];
+	UIImage* thumbnail = [rawImage resizedImageWithSize:CGSizeMake(userImageWidth,userImageHeight)];
 	CGImageRelease(imageRef);
 	[rawImage release];
 	return thumbnail;
