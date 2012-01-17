@@ -46,7 +46,7 @@
 					<object class="IBUILabel" id="68554959">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{223, 43}, {149, 65}}</string>
+						<string key="NSFrame">{{223, 46}, {149, 65}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="422863140"/>
@@ -66,7 +66,7 @@
 						</object>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="1045801640">
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="459851767">
 							<string key="name">Futura-Medium</string>
 							<string key="family">Futura</string>
 							<int key="traits">0</int>
@@ -95,7 +95,7 @@
 						<reference key="IBUIHighlightedColor" ref="77684364"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="1045801640"/>
+						<reference key="IBUIFontDescription" ref="459851767"/>
 						<reference key="IBUIFont" ref="627666685"/>
 					</object>
 					<object class="IBUILabel" id="672079787">
@@ -115,13 +115,13 @@
 						<reference key="IBUIHighlightedColor" ref="77684364"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="1045801640"/>
+						<reference key="IBUIFontDescription" ref="459851767"/>
 						<reference key="IBUIFont" ref="627666685"/>
 					</object>
 					<object class="IBUITextField" id="422863140">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{380, 50}, {421, 52}}</string>
+						<string key="NSFrame">{{380, 53}, {421, 52}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="672079787"/>
@@ -439,13 +439,13 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="786032899"/>
 							<reference ref="104268726"/>
-							<reference ref="422863140"/>
 							<reference ref="672079787"/>
 							<reference ref="492808239"/>
 							<reference ref="400029895"/>
 							<reference ref="68554959"/>
 							<reference ref="323707084"/>
 							<reference ref="117409547"/>
+							<reference ref="422863140"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
