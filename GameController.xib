@@ -1859,9 +1859,9 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="947909933"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
+						<object class="NSColor" key="IBUIBackgroundColor" id="1068086042">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC43NTI5NDExNzY1IDAuMzEzNzI1NDkwMiAwLjMwMTk2MDc4NDMgMC43AA</bytes>
+							<bytes key="NSRGB">MC43NTI5NDExNzY1IDAuMzEzNzI1NDkwMiAwLjMwMTk2MDc4NDMgMC4xAA</bytes>
 						</object>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -1905,10 +1905,7 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="311681782"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC43NTI5NDExNzY1IDAuMzEzNzI1NDkwMiAwLjMwMTk2MDc4NDMgMC43AA</bytes>
-						</object>
+						<reference key="IBUIBackgroundColor" ref="1068086042"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -1940,9 +1937,9 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="509865688"/>
-						<object class="NSColor" key="IBUIBackgroundColor" id="541686074">
+						<object class="NSColor" key="IBUIBackgroundColor" id="570901336">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4yNjY2NjY2NjY3IDAuNDg2Mjc0NTA5OCAwLjcwMTk2MDc4NDMgMC43AA</bytes>
+							<bytes key="NSRGB">MC4yNjY2NjY2NjY3IDAuNDg2Mjc0NTA5OCAwLjcwMTk2MDc4NDMgMC4xAA</bytes>
 						</object>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -1974,10 +1971,7 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="686409134"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC43NTI5NDExNzY1IDAuMzEzNzI1NDkwMiAwLjMwMTk2MDc4NDMgMC43AA</bytes>
-						</object>
+						<reference key="IBUIBackgroundColor" ref="1068086042"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUITag">2</int>
@@ -2008,7 +2002,7 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="976240309"/>
-						<reference key="IBUIBackgroundColor" ref="541686074"/>
+						<reference key="IBUIBackgroundColor" ref="570901336"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUITag">3</int>
@@ -2039,10 +2033,7 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="306620309"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC43NTI5NDExNzY1IDAuMzEzNzI1NDkwMiAwLjMwMTk2MDc4NDMgMC43AA</bytes>
-						</object>
+						<reference key="IBUIBackgroundColor" ref="1068086042"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUITag">4</int>
@@ -2073,10 +2064,7 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="123961958"/>
-						<object class="NSColor" key="IBUIBackgroundColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC43NTI5NDExNzY1IDAuMzEzNzI1NDkwMiAwLjMwMTk2MDc4NDMgMC43AA</bytes>
-						</object>
+						<reference key="IBUIBackgroundColor" ref="1068086042"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUITag">5</int>
@@ -2107,7 +2095,7 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="91331991"/>
-						<reference key="IBUIBackgroundColor" ref="541686074"/>
+						<reference key="IBUIBackgroundColor" ref="570901336"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUITag">1</int>
@@ -2138,7 +2126,7 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="641630370"/>
-						<reference key="IBUIBackgroundColor" ref="541686074"/>
+						<reference key="IBUIBackgroundColor" ref="570901336"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUITag">4</int>
@@ -2169,7 +2157,7 @@
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="217283209"/>
-						<reference key="IBUIBackgroundColor" ref="541686074"/>
+						<reference key="IBUIBackgroundColor" ref="570901336"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUITag">5</int>
@@ -3620,7 +3608,6 @@
 							<reference ref="947909933"/>
 							<reference ref="509865688"/>
 							<reference ref="306620309"/>
-							<reference ref="123961958"/>
 							<reference ref="976240309"/>
 							<reference ref="641630370"/>
 							<reference ref="238317191"/>
@@ -3635,6 +3622,7 @@
 							<reference ref="556024729"/>
 							<reference ref="5818628"/>
 							<reference ref="311681782"/>
+							<reference ref="123961958"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
