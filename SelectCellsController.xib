@@ -1967,7 +1967,6 @@
 						<string key="NSFrame">{{922, 637}, {90, 56}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<int key="IBUITag">99</int>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -2095,14 +2094,14 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription">
-							<string key="name">Futura-MediumItalic</string>
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="809673840">
+							<string key="name">Futura-Medium</string>
 							<string key="family">Futura</string>
-							<int key="traits">1</int>
+							<int key="traits">0</int>
 							<double key="pointSize">30</double>
 						</object>
-						<object class="NSFont" key="IBUIFont">
-							<string key="NSName">Futura-MediumItalic</string>
+						<object class="NSFont" key="IBUIFont" id="228029406">
+							<string key="NSName">Futura-Medium</string>
 							<double key="NSSize">30</double>
 							<int key="NSfFlags">16</int>
 						</object>
@@ -2125,14 +2124,14 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="374810788">
-							<string key="name">Futura-Medium</string>
-							<string key="family">Futura</string>
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="459560632">
+							<string key="name">Helvetica</string>
+							<string key="family">Helvetica</string>
 							<int key="traits">0</int>
 							<double key="pointSize">36</double>
 						</object>
-						<object class="NSFont" key="IBUIFont" id="193175513">
-							<string key="NSName">Futura-Medium</string>
+						<object class="NSFont" key="IBUIFont" id="560217920">
+							<string key="NSName">Helvetica</string>
 							<double key="NSSize">36</double>
 							<int key="NSfFlags">16</int>
 						</object>
@@ -2155,8 +2154,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="47475289">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2176,8 +2175,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="1065494299">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2197,8 +2196,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="56135724">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2218,8 +2217,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="813384776">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2239,8 +2238,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="449854110">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2260,8 +2259,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="375889848">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2281,8 +2280,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="96697284">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2302,8 +2301,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="576004314">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2323,8 +2322,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="740551987">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2344,8 +2343,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="327041847">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2365,8 +2364,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="736364078">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2386,8 +2385,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="164132141">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2407,8 +2406,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="736079507">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2428,8 +2427,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="834647833">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2449,8 +2448,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="813725505">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2470,8 +2469,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="164089310">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2491,8 +2490,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="171745320">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2512,8 +2511,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="311026875">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2533,8 +2532,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="374810788"/>
-						<reference key="IBUIFont" ref="193175513"/>
+						<reference key="IBUIFontDescription" ref="459560632"/>
+						<reference key="IBUIFont" ref="560217920"/>
 					</object>
 					<object class="IBUILabel" id="1064244233">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2554,17 +2553,8 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="809673840">
-							<string key="name">Futura-Medium</string>
-							<string key="family">Futura</string>
-							<int key="traits">0</int>
-							<double key="pointSize">30</double>
-						</object>
-						<object class="NSFont" key="IBUIFont" id="634706800">
-							<string key="NSName">Futura-Medium</string>
-							<double key="NSSize">30</double>
-							<int key="NSfFlags">16</int>
-						</object>
+						<reference key="IBUIFontDescription" ref="809673840"/>
+						<reference key="IBUIFont" ref="228029406"/>
 					</object>
 					<object class="IBUILabel" id="833736531">
 						<reference key="NSNextResponder" ref="191373211"/>
@@ -2585,7 +2575,7 @@
 						<float key="IBUIMinimumFontSize">10</float>
 						<int key="IBUITextAlignment">1</int>
 						<reference key="IBUIFontDescription" ref="809673840"/>
-						<reference key="IBUIFont" ref="634706800"/>
+						<reference key="IBUIFont" ref="228029406"/>
 					</object>
 				</object>
 				<string key="NSFrame">{{0, 64}, {1024, 704}}</string>
