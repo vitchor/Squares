@@ -32,7 +32,6 @@
 		44A5959A14B90471004D6B90 /* smallBluewArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958A14B90471004D6B90 /* smallBluewArrow.png */; };
 		44A5959B14B90471004D6B90 /* smallRedArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958B14B90471004D6B90 /* smallRedArrow.png */; };
 		44A5959D14B90471004D6B90 /* iconFlat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958D14B90471004D6B90 /* iconFlat2.png */; };
-		44A5959E14B90471004D6B90 /* iconFlat.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958E14B90471004D6B90 /* iconFlat.png */; };
 		44A5959F14B90471004D6B90 /* squaresTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5958F14B90471004D6B90 /* squaresTitle.png */; };
 		44A595A014B90471004D6B90 /* grassIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5959014B90471004D6B90 /* grassIcon.png */; };
 		44A595A114B90471004D6B90 /* winner_header2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5959114B90471004D6B90 /* winner_header2.png */; };
@@ -84,7 +83,6 @@
 		44A5958A14B90471004D6B90 /* smallBluewArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallBluewArrow.png; path = Resources/smallBluewArrow.png; sourceTree = "<group>"; };
 		44A5958B14B90471004D6B90 /* smallRedArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallRedArrow.png; path = Resources/smallRedArrow.png; sourceTree = "<group>"; };
 		44A5958D14B90471004D6B90 /* iconFlat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconFlat2.png; path = Resources/iconFlat2.png; sourceTree = "<group>"; };
-		44A5958E14B90471004D6B90 /* iconFlat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconFlat.png; path = Resources/iconFlat.png; sourceTree = "<group>"; };
 		44A5958F14B90471004D6B90 /* squaresTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = squaresTitle.png; path = Resources/squaresTitle.png; sourceTree = "<group>"; };
 		44A5959014B90471004D6B90 /* grassIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grassIcon.png; path = Resources/grassIcon.png; sourceTree = "<group>"; };
 		44A5959114B90471004D6B90 /* winner_header2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = winner_header2.png; path = Resources/winner_header2.png; sourceTree = "<group>"; };
@@ -176,7 +174,6 @@
 				44A5958A14B90471004D6B90 /* smallBluewArrow.png */,
 				44A5958B14B90471004D6B90 /* smallRedArrow.png */,
 				44A5958D14B90471004D6B90 /* iconFlat2.png */,
-				44A5958E14B90471004D6B90 /* iconFlat.png */,
 				44A5958F14B90471004D6B90 /* squaresTitle.png */,
 				44A5959014B90471004D6B90 /* grassIcon.png */,
 				44A5959114B90471004D6B90 /* winner_header2.png */,
@@ -347,7 +344,6 @@
 				44A5959A14B90471004D6B90 /* smallBluewArrow.png in Resources */,
 				44A5959B14B90471004D6B90 /* smallRedArrow.png in Resources */,
 				44A5959D14B90471004D6B90 /* iconFlat2.png in Resources */,
-				44A5959E14B90471004D6B90 /* iconFlat.png in Resources */,
 				44A5959F14B90471004D6B90 /* squaresTitle.png in Resources */,
 				44A595A014B90471004D6B90 /* grassIcon.png in Resources */,
 				44A595A114B90471004D6B90 /* winner_header2.png in Resources */,
@@ -402,7 +398,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = "~/Squares/Entitlements.plist";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Bragiel (C757UQMZUN)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Bragiel";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Bragiel (C757UQMZUN)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -411,8 +407,8 @@
 				GCC_PREFIX_HEADER = Pool_Prefix.pch;
 				INFOPLIST_FILE = "Pool-Info.plist";
 				PRODUCT_NAME = Pool;
-				PROVISIONING_PROFILE = "0293F340-2757-41C3-BD6A-612F9AAE3D1B";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0293F340-2757-41C3-BD6A-612F9AAE3D1B";
+				PROVISIONING_PROFILE = "6B6CD342-1D32-4F03-8593-0CE1C896547A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "803DD02D-CBF4-4A09-BF4F-46A7B7D7AFBA";
 			};
 			name = Debug;
 		};
@@ -421,14 +417,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Bragiel";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Bragiel";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Pool_Prefix.pch;
 				INFOPLIST_FILE = "Pool-Info.plist";
 				PRODUCT_NAME = Pool;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6B6CD342-1D32-4F03-8593-0CE1C896547A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -442,7 +439,6 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PROVISIONING_PROFILE = "0293F340-2757-41C3-BD6A-612F9AAE3D1B";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};

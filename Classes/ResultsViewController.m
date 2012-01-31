@@ -63,6 +63,7 @@
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+
 - (void)viewDidLoad {
 	NSString *quitButton = @"Quit";
 	
@@ -240,8 +241,41 @@
 		[quarter3_number release];
 		[quarter4_number release];
 	[OT_number release];
+    
+    
     [super viewDidLoad];
+    
 }
+       
+- (void) viewWillAppear:(BOOL)animated {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *sawRatingDialog = [defaults stringForKey:@"sawRatingDialog"];
+
+    if(!sawRatingDialog || ![sawRatingDialog isEqual:@"true"]) {
+        
+        [defaults setObject:@"true" forKey:@"sawRatingDialog"];
+        [defaults synchronize];
+        
+        NSString *alertTitle = @"Liked it?" ;
+        NSString *alertmsg = @"If you enjoyed this app it'd be great to hear from you. Want to review the app?";
+        NSString *alertButtonOne = @"Yes";
+        NSString *alertButtonTwo = @"No";
+        
+        UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:alertTitle message:alertmsg delegate:self cancelButtonTitle:alertButtonOne otherButtonTitles:nil] autorelease];
+        // optional - add more buttons:
+        [alert setTag:69];
+        [alert addButtonWithTitle:alertButtonTwo];
+        [alert show];
+        
+        [alertTitle release]; 
+        [alertmsg release];
+        [alertButtonOne release];
+        [alertButtonTwo release];
+    }
+    [sawRatingDialog release];
+
+}
+
 
 -(void)continueButtonPressed{
 	NSString *alertTitle = @"Quit Game?";
@@ -267,6 +301,10 @@
         if (buttonIndex == 0) { 
 			kill(0,0);// and they clicked OK.
             exit(0);
+        }     
+    } else if ([alertView tag] == 69) {
+        if (buttonIndex == 0) {
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/super-squares/id419756947?mt=8"]];
         }
     }
 }

@@ -56,6 +56,7 @@
 	
 	NSMutableArray *team1_randomNumbers;
 	NSMutableArray *team2_randomNumbers;
+    
 	
 	IBOutlet UILabel *quarter1_Winner;
 	IBOutlet UILabel *quarter2_Winner;
