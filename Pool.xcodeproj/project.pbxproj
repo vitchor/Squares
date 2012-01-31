@@ -48,6 +48,7 @@
 		44A595A414B90471004D6B90 /* padBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5959414B90471004D6B90 /* padBorder.png */; };
 		44A595A514B90471004D6B90 /* initialsImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A5959514B90471004D6B90 /* initialsImage2.png */; };
 		44C1080A12E93674004FAB57 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C1080912E93674004FAB57 /* ResultsViewController.m */; };
+		44C1DDD314D861C8001936A1 /* newGrassBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C1DDD114D861C8001936A1 /* newGrassBackground.png */; };
 		44D7E15A12ED0D50009081DC /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D7E15912ED0D50009081DC /* PaintingView.m */; };
 		44F5B62612DE58CA0093CE66 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F5B62512DE58CA0093CE66 /* GameController.m */; };
 		44F5B62812DE58DC0093CE66 /* GameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F5B62712DE58DC0093CE66 /* GameController.xib */; };
@@ -106,6 +107,7 @@
 		44A5959514B90471004D6B90 /* initialsImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = initialsImage2.png; path = Resources/initialsImage2.png; sourceTree = "<group>"; };
 		44C1080812E93674004FAB57 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		44C1080912E93674004FAB57 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		44C1DDD214D861C8001936A1 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/newGrassBackground.png; sourceTree = "<group>"; };
 		44D7E15812ED0D50009081DC /* PaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintingView.h; sourceTree = "<group>"; };
 		44D7E15912ED0D50009081DC /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintingView.m; sourceTree = "<group>"; };
 		44F5B62412DE58CA0093CE66 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				44C1DDD114D861C8001936A1 /* newGrassBackground.png */,
 				440C8F8214C5B28F00BB7656 /* table5.png */,
 				440C8F8014C5AC1E00BB7656 /* table4.png */,
 				440C8F7E14C5AAF200BB7656 /* table3.png */,
@@ -322,6 +325,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Pool" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -375,6 +381,7 @@
 				440C8F7F14C5AAF200BB7656 /* table3.png in Resources */,
 				440C8F8114C5AC1E00BB7656 /* table4.png in Resources */,
 				440C8F8314C5B28F00BB7656 /* table5.png in Resources */,
+				44C1DDD314D861C8001936A1 /* newGrassBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,13 +409,25 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		44C1DDD114D861C8001936A1 /* newGrassBackground.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C1DDD214D861C8001936A1 /* English */,
+			);
+			name = newGrassBackground.png;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/Desktop/Victor/workspace/Pool/Entitlements.plist";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Bragiel";
+				CODE_SIGN_ENTITLEMENTS = "~/Squares/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Bragiel (C757UQMZUN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Daniel Bragiel (C757UQMZUN)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -416,7 +435,8 @@
 				GCC_PREFIX_HEADER = Pool_Prefix.pch;
 				INFOPLIST_FILE = "Pool-Info.plist";
 				PRODUCT_NAME = Pool;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36E58B40-DC8F-47FE-BEFE-0C664ED1C653";
+				PROVISIONING_PROFILE = "0293F340-2757-41C3-BD6A-612F9AAE3D1B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0293F340-2757-41C3-BD6A-612F9AAE3D1B";
 			};
 			name = Debug;
 		};
@@ -425,15 +445,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Dan Bragiel";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Bragiel";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Pool_Prefix.pch;
 				INFOPLIST_FILE = "Pool-Info.plist";
 				PRODUCT_NAME = Pool;
-				PROVISIONING_PROFILE = "36E58B40-DC8F-47FE-BEFE-0C664ED1C653";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36E58B40-DC8F-47FE-BEFE-0C664ED1C653";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -442,12 +461,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Bragiel (C757UQMZUN)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Bragiel";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36E58B40-DC8F-47FE-BEFE-0C664ED1C653";
+				PROVISIONING_PROFILE = "0293F340-2757-41C3-BD6A-612F9AAE3D1B";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -457,13 +476,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dan Bragiel";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "36E58B40-DC8F-47FE-BEFE-0C664ED1C653";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
